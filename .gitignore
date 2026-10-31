@@ -1,0 +1,13 @@
+# FreeCAD backups
+*.FCBak
+
+# KiCad and project backup folders
+*-backups/
+
+# Lock files
+*.lck
+~*
+
+# macOS junk files (from unzipped downloads)
+__MACOSX/
+._*
