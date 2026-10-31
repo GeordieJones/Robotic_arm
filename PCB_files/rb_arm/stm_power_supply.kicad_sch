@@ -1,0 +1,9648 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "4a4b03b8-db62-46c9-a877-79834d3347d0")
+	(paper "A3")
+	(lib_symbols
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:C"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:FerriteBead"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "FB"
+				(at -3.81 0.635 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "FerriteBead"
+				(at 3.81 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Ferrite bead"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "L ferrite bead inductor filter"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Inductor_* L_* *Ferrite*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "FerriteBead_0_1"
+				(polyline
+					(pts
+						(xy -2.7686 0.4064) (xy -1.7018 2.2606) (xy 2.7686 -0.3048) (xy 1.6764 -2.159) (xy -2.7686 0.4064)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 1.2954)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 0 -1.2192)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "FerriteBead_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:L"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "L"
+				(at -1.27 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "L"
+				(at 1.905 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Inductor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "inductor choke coil reactor magnetic"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Choke_* *Coil* Inductor_* L_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "L_0_1"
+				(arc
+					(start 0 2.54)
+					(mid 0.6323 1.905)
+					(end 0 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 1.27)
+					(mid 0.6323 0.635)
+					(end 0 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 0)
+					(mid 0.6323 -0.635)
+					(end 0 -1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -1.27)
+					(mid 0.6323 -1.905)
+					(end 0 -2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "L_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:+3.3VA"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "+3.3VA"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+3.3VA\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "+3.3VA_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3.3VA_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:GNDPWR"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "GNDPWR"
+				(at 0 -3.302 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 -1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 -1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global ground"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "GNDPWR_0_1"
+				(polyline
+					(pts
+						(xy -1.016 -1.27) (xy -1.27 -2.032) (xy -1.27 -2.032)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 -1.27) (xy -0.762 -2.032) (xy -0.762 -2.032)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy -0.254 -2.032) (xy -0.254 -2.032)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 -1.27) (xy 0.254 -2.032) (xy 0.254 -2.032)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 -1.27) (xy -1.016 -1.27) (xy -1.016 -1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 -1.27) (xy 0.762 -2.032) (xy 0.762 -2.032) (xy 0.762 -2.032)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GNDPWR_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:PWR_FLAG"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(rectangle
+		(start 71.12 46.99)
+		(end 257.81 240.03)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "2155a3d2-90a4-4f5d-98a2-d4f9af09f463")
+	)
+	(text "GND\n"
+		(exclude_from_sim no)
+		(at 131.572 177.038 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "0eeaf1d3-125c-493e-b351-47215c79253d")
+	)
+	(text "STMN6 POWER SUPPLY"
+		(exclude_from_sim no)
+		(at 90.424 43.942 0)
+		(effects
+			(font
+				(size 2.286 2.286)
+				(thickness 0.3556)
+				(bold yes)
+			)
+		)
+		(uuid "2c84a48b-2869-48ba-b0e6-66d7088b963f")
+	)
+	(text "VDD Analog 3.3V power rail\n"
+		(exclude_from_sim no)
+		(at 212.09 117.094 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "55285210-1a4d-49d3-9876-c0b77b197974")
+	)
+	(text "25 100nF\n1 22uF\n"
+		(exclude_from_sim no)
+		(at 196.85 124.968 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "5881bdeb-3614-46b5-9c66-857c3ab1a054")
+	)
+	(text "6 100nF\n1 22uF\n"
+		(exclude_from_sim no)
+		(at 145.796 128.016 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "5c3589f7-997a-40f5-ad67-f2db6f2812dd")
+	)
+	(text "V08CAP rail"
+		(exclude_from_sim no)
+		(at 201.93 237.49 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "6f0faddc-2d30-42b1-b928-1e7f9897135b")
+	)
+	(text "VREF rail"
+		(exclude_from_sim no)
+		(at 138.43 236.474 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "96efd402-8fbc-42b2-bbb4-8b4db9787f64")
+	)
+	(text "VDD Direct 3.3V rail"
+		(exclude_from_sim no)
+		(at 177.038 72.644 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "983ee9e5-4463-4342-8a67-116e6b81e030")
+	)
+	(text "VDD Analog 3.3V power rail"
+		(exclude_from_sim no)
+		(at 145.796 86.614 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a5f84d43-8466-4431-86be-729e16ac7c2e")
+	)
+	(text "6 100nF\n1 22uF\n"
+		(exclude_from_sim no)
+		(at 230.632 123.444 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "aca36dab-fcb5-401b-bf42-180ea518eaad")
+	)
+	(text "10 pins to 1.8"
+		(exclude_from_sim no)
+		(at 80.772 110.236 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "d873174b-4c31-4eaa-bc07-9e6590557d52")
+	)
+	(text "6 100nF\n4 22uF\n"
+		(exclude_from_sim no)
+		(at 93.98 140.716 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ec9ac263-7966-439f-a5a3-eadb01e4e657")
+	)
+	(text "1.8V powercore rail"
+		(exclude_from_sim no)
+		(at 76.962 141.224 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "fea1f685-f627-487f-a85b-92b9f67f0098")
+	)
+	(junction
+		(at 190.5 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "022e3341-03f5-4502-9b12-7742ff5ceba7")
+	)
+	(junction
+		(at 180.34 166.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "04c262b1-39a9-4819-b43f-a92d90621761")
+	)
+	(junction
+		(at 139.7 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "04c366bb-4e57-421d-b242-3561bf87fa83")
+	)
+	(junction
+		(at 190.5 171.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "060566b8-1d10-48c0-bc42-4b198d2abf31")
+	)
+	(junction
+		(at 180.34 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "068a135e-2bd3-46f5-974f-ecc14911ddd0")
+	)
+	(junction
+		(at 129.54 205.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "06f82e5d-ba01-401e-90d7-0ebd6ae5b35a")
+	)
+	(junction
+		(at 223.52 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0a7ef69b-7220-41d9-b187-5f525286750a")
+	)
+	(junction
+		(at 215.9 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0b07cb56-853d-4687-8117-576df0b817cc")
+	)
+	(junction
+		(at 137.16 233.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0c9d4821-c292-4e6f-bc0a-20d360ef290c")
+	)
+	(junction
+		(at 190.5 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0d28be09-184c-4be3-9a09-94b749667294")
+	)
+	(junction
+		(at 134.62 223.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0d7fa3fa-55d7-4c51-9e60-618336bc26ea")
+	)
+	(junction
+		(at 190.5 135.89)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0debe43e-87e2-4d21-a2d8-08a5ca4e9248")
+	)
+	(junction
+		(at 190.5 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1020b29b-8d4e-4bb9-b239-77d4dd57d174")
+	)
+	(junction
+		(at 139.7 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "125aa1cc-abcd-48ac-bf8f-d740c60a22d7")
+	)
+	(junction
+		(at 81.28 156.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "131a628d-1852-49be-a269-14d378f6979a")
+	)
+	(junction
+		(at 132.08 121.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "17858477-6314-4526-b01b-0520034f871e")
+	)
+	(junction
+		(at 223.52 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "195ce3b4-4b24-4200-b1bb-94ce59b08c30")
+	)
+	(junction
+		(at 223.52 135.89)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1962e9d9-2f1a-4c05-9ad7-e9f3cba05854")
+	)
+	(junction
+		(at 180.34 146.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1d0a15a9-97ee-4b8d-b438-20b8c7e43125")
+	)
+	(junction
+		(at 180.34 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1e8ea2c9-b131-4307-bde7-b7fbd48114f2")
+	)
+	(junction
+		(at 139.7 128.27)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "201a2877-3b17-4b61-951e-f6e555fe2789")
+	)
+	(junction
+		(at 190.5 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2085c2a4-e7ad-41d7-8f76-293379c0ed91")
+	)
+	(junction
+		(at 190.5 151.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "21140a62-718d-4ca6-bdbe-6150116cdcc7")
+	)
+	(junction
+		(at 180.34 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "22534a70-a0da-40f7-ac60-6c5d3a3cf939")
+	)
+	(junction
+		(at 88.9 175.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "22cf852c-c2f9-4dd9-8e59-69625533dd16")
+	)
+	(junction
+		(at 180.34 181.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "239a594e-0fbd-40d1-8c98-7485e401be00")
+	)
+	(junction
+		(at 139.7 167.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "23d35fe8-0687-4486-bcb0-0469115b51d1")
+	)
+	(junction
+		(at 190.5 140.97)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "24eabe87-b45f-4ce0-ba7a-67f0a2889fb4")
+	)
+	(junction
+		(at 190.5 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "29bb23a2-5b86-4718-b3a8-f5a1eb7e0d65")
+	)
+	(junction
+		(at 132.08 167.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2a58c679-e354-4f1b-915a-763642130566")
+	)
+	(junction
+		(at 180.34 135.89)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2aa689d7-66d2-40e6-bb21-2bac89bf5405")
+	)
+	(junction
+		(at 88.9 162.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "31ea610f-aea7-4b1c-a093-4b733207c434")
+	)
+	(junction
+		(at 180.34 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3708ef1f-e262-45e2-b225-2bc73d364aaf")
+	)
+	(junction
+		(at 81.28 137.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3846ee89-6f81-49fd-86c5-0b2cbcd5bbdd")
+	)
+	(junction
+		(at 180.34 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3e45f36f-93bb-4f94-a235-b66be3650144")
+	)
+	(junction
+		(at 223.52 144.78)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "44c58f34-fa6a-4c67-b2ee-066cd77e6c81")
+	)
+	(junction
+		(at 223.52 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "46071713-4bd1-48b1-b867-631b1d26637a")
+	)
+	(junction
+		(at 190.5 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "462ec419-9974-48fd-8517-2175f8b3852d")
+	)
+	(junction
+		(at 139.7 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "48a4c470-19fc-4302-b1a9-477003ca9567")
+	)
+	(junction
+		(at 190.5 181.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4cd9a5d9-5c23-4518-8c8e-ecae6a8b7a19")
+	)
+	(junction
+		(at 190.5 176.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4ea5010e-820b-4b4b-99f5-db5a99e99e8b")
+	)
+	(junction
+		(at 180.34 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4eec2d7e-644d-4899-89fb-fb2fb6cfabe1")
+	)
+	(junction
+		(at 132.08 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4f802c2b-a1bf-4cdd-8a03-3d7b365f0709")
+	)
+	(junction
+		(at 190.5 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4fa09e3d-27dd-4bac-83fe-30ba7713443f")
+	)
+	(junction
+		(at 81.28 149.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4ff528ed-5f36-4b0b-8675-adf67dffa28f")
+	)
+	(junction
+		(at 180.34 156.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "52d6d0fd-336f-4034-92a4-68a00bde8b77")
+	)
+	(junction
+		(at 190.5 146.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "52dcb3ad-0f6e-4200-bbff-77361f21ae40")
+	)
+	(junction
+		(at 180.34 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "54a38b5d-fa29-44e1-9e62-9464dd505755")
+	)
+	(junction
+		(at 81.28 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5a0fa64e-be68-4a59-ab81-297800812c95")
+	)
+	(junction
+		(at 215.9 135.89)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "63616519-2239-4638-a2b4-e27174482b3a")
+	)
+	(junction
+		(at 81.28 162.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "67f201f8-5956-459f-a397-7c2d128b512c")
+	)
+	(junction
+		(at 215.9 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6d82749f-01d1-42ba-a278-56af3e9e0b33")
+	)
+	(junction
+		(at 81.28 129.54)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "700d5644-65e9-4b14-8161-93436a4231ca")
+	)
+	(junction
+		(at 180.34 194.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "720944d6-c9b1-4c4f-b7aa-fce824e5ac40")
+	)
+	(junction
+		(at 190.5 166.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "749e581d-9f8a-4ae6-a92c-ea41b382977b")
+	)
+	(junction
+		(at 223.52 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7aece611-4e52-4f42-a1bb-2a6b6b6912d1")
+	)
+	(junction
+		(at 176.53 233.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7f21b7d5-20ba-483d-b994-e0cde07b77cc")
+	)
+	(junction
+		(at 180.34 171.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "82d051e8-81ea-4a9a-ac9c-abb71d602c67")
+	)
+	(junction
+		(at 88.9 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "835012ff-a0f9-4372-917b-effa29e8de5b")
+	)
+	(junction
+		(at 132.08 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8723c540-6d69-4d09-967f-4f927c4b8728")
+	)
+	(junction
+		(at 139.7 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "884e437e-f128-4469-90ed-656355dd7e47")
+	)
+	(junction
+		(at 190.5 161.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8d01cf33-e795-4c79-a199-94f55ba442d5")
+	)
+	(junction
+		(at 190.5 187.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8d675dfa-3b19-43d8-9f97-d9279762a99f")
+	)
+	(junction
+		(at 215.9 129.54)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8df42412-cb56-45bb-b82a-b71c4be5babe")
+	)
+	(junction
+		(at 88.9 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "90bec647-6536-4a54-98d4-fc4229660ad3")
+	)
+	(junction
+		(at 180.34 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9214c679-4b82-4a32-ba30-3203719db4ea")
+	)
+	(junction
+		(at 81.28 175.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "962add13-673d-44c4-910b-e4d8908cc84d")
+	)
+	(junction
+		(at 180.34 161.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "972c605b-8372-436c-ab22-210540fc94e0")
+	)
+	(junction
+		(at 215.9 168.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "97f8c007-584a-4559-b42c-b2714bc04b75")
+	)
+	(junction
+		(at 180.34 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "98ef9061-8ee0-4908-9e07-328d21deab14")
+	)
+	(junction
+		(at 180.34 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9c1e318a-183d-4514-af97-626921705dcf")
+	)
+	(junction
+		(at 190.5 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9d81fc3b-8599-4284-95b4-acfbb3c81e34")
+	)
+	(junction
+		(at 190.5 156.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a4b1f8a4-8996-4b0f-b314-7d643d7931dd")
+	)
+	(junction
+		(at 190.5 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a5cdf126-0fbe-4632-babd-7f41da5a3261")
+	)
+	(junction
+		(at 132.08 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a5d67b38-8b58-4c3f-b600-ee422aa97edb")
+	)
+	(junction
+		(at 180.34 187.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a64add52-767e-4b86-bfea-cb8e5c67a7f2")
+	)
+	(junction
+		(at 215.9 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a6ae1555-a228-41cd-bcfc-c186784fd255")
+	)
+	(junction
+		(at 88.9 129.54)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a6c1e6df-5a96-4343-bc88-7f0e102ba13c")
+	)
+	(junction
+		(at 199.39 223.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a7baf231-af91-4444-8718-fc2bea377b6c")
+	)
+	(junction
+		(at 190.5 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a8663e65-db95-4da9-985f-6e2a331de919")
+	)
+	(junction
+		(at 180.34 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "aab5b109-b974-405f-b149-5d1edf9b8c56")
+	)
+	(junction
+		(at 212.09 223.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ae69d683-2563-49de-a50f-468d6453d44a")
+	)
+	(junction
+		(at 132.08 128.27)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b11bf1df-bbf3-4580-9433-c9808e2ba0db")
+	)
+	(junction
+		(at 180.34 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b451c34a-1873-4827-8b2b-4247a2a2d723")
+	)
+	(junction
+		(at 215.9 144.78)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ba846b1e-9b67-4aed-8e8d-f1941729065f")
+	)
+	(junction
+		(at 81.28 143.51)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bbb1e148-c6fb-4b2d-924f-284e98c8bba8")
+	)
+	(junction
+		(at 88.9 149.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bd8917b4-afb0-4710-83a0-5f09236a280b")
+	)
+	(junction
+		(at 223.52 168.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bdc5a33d-57a5-4c79-8685-6413fdfe7d3a")
+	)
+	(junction
+		(at 180.34 151.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "be396f57-0cdc-4f25-ba5e-9210037ff6be")
+	)
+	(junction
+		(at 180.34 140.97)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c00b39c7-4ba2-4000-a13c-9721b70b2201")
+	)
+	(junction
+		(at 190.5 194.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c304bfa7-fb00-4548-9032-a997867f9f25")
+	)
+	(junction
+		(at 190.5 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c35c49cd-15dd-48b9-8812-8986f1c1df5d")
+	)
+	(junction
+		(at 88.9 168.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c811f2a1-954a-4a94-a619-fe44c09489ec")
+	)
+	(junction
+		(at 88.9 143.51)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c9197506-8203-4201-ab34-4e328f26f85b")
+	)
+	(junction
+		(at 190.5 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c9e11840-aa04-4acd-bb01-6357a24dd5b9")
+	)
+	(junction
+		(at 180.34 176.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cbd3fec8-b388-40a3-9d66-3a50980fe612")
+	)
+	(junction
+		(at 88.9 137.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d6d8ebc0-2810-4424-b292-308cebb0c51d")
+	)
+	(junction
+		(at 223.52 129.54)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dbaa806a-f162-4c55-8981-94730404063f")
+	)
+	(junction
+		(at 139.7 121.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dbcdd3a7-5380-4da8-9c8f-efa3b47f0da7")
+	)
+	(junction
+		(at 190.5 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dc82056c-764f-4497-bd7b-6018f58f9772")
+	)
+	(junction
+		(at 180.34 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e10fcd54-6a97-49a4-96f7-b32bc5788fb1")
+	)
+	(junction
+		(at 88.9 156.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e3f737fb-844d-467f-b372-17fe359b5a21")
+	)
+	(junction
+		(at 139.7 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e94194af-485a-4d87-99e7-110f7cdb1dc3")
+	)
+	(junction
+		(at 139.7 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f5c74cf3-eafa-4ea2-83fd-8ea21aeceddd")
+	)
+	(junction
+		(at 180.34 205.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f6cb6b76-feb3-4edc-8984-e2ebfbf6c57e")
+	)
+	(junction
+		(at 190.5 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f8180704-8170-42e9-bde9-af6ba09da2d1")
+	)
+	(junction
+		(at 180.34 213.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f89584e4-6f86-4834-88a5-f7d63f52655e")
+	)
+	(junction
+		(at 132.08 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fa2dec5f-3832-4fa6-994f-36ef716b9536")
+	)
+	(junction
+		(at 81.28 168.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fd2acee0-b39d-4e74-917c-9b071bb2afc3")
+	)
+	(junction
+		(at 132.08 223.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fe0e246b-8ce0-4cb8-9709-f4e000193d86")
+	)
+	(wire
+		(pts
+			(xy 81.28 137.16) (xy 81.28 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00499a37-bdd9-48b0-adcf-12b68ca005da")
+	)
+	(wire
+		(pts
+			(xy 190.5 140.97) (xy 190.5 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00665eca-c68f-4451-a40f-f89195f09d82")
+	)
+	(wire
+		(pts
+			(xy 193.04 233.68) (xy 199.39 233.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01ee856f-0d21-4002-adf5-8b1e0e83b6f9")
+	)
+	(wire
+		(pts
+			(xy 180.34 146.05) (xy 180.34 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0215384e-4af0-491b-8edf-096d0516dc6c")
+	)
+	(wire
+		(pts
+			(xy 190.5 68.58) (xy 190.5 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0229aeae-462c-4b27-9bea-3edd4cc509e3")
+	)
+	(wire
+		(pts
+			(xy 132.08 115.57) (xy 132.08 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "022d14cd-abeb-4ad4-a63e-096350fe3e63")
+	)
+	(wire
+		(pts
+			(xy 190.5 87.63) (xy 190.5 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02eaca58-3008-4c73-86a0-af7d29d7fb45")
+	)
+	(wire
+		(pts
+			(xy 180.34 62.23) (xy 180.34 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03d3b98f-030a-4778-ab8a-74ba399b213f")
+	)
+	(wire
+		(pts
+			(xy 223.52 123.19) (xy 223.52 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04b1883c-f3c4-4bc3-a994-ed334aa3b0f9")
+	)
+	(wire
+		(pts
+			(xy 190.5 187.96) (xy 190.5 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04c5385b-7380-40e4-b944-e2829132fbf6")
+	)
+	(wire
+		(pts
+			(xy 190.5 110.49) (xy 190.5 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "064ec1b4-f83c-4470-b325-53df4b694f65")
+	)
+	(wire
+		(pts
+			(xy 190.5 81.28) (xy 189.23 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0681baa5-3ab7-4c47-91fd-17c4d728fdb5")
+	)
+	(wire
+		(pts
+			(xy 181.61 125.73) (xy 180.34 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07bd4ae3-eab7-4730-a053-a00f8577d118")
+	)
+	(wire
+		(pts
+			(xy 215.9 104.14) (xy 215.9 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "090d9646-1ae4-41c5-a8b0-54ccc92b999b")
+	)
+	(wire
+		(pts
+			(xy 180.34 187.96) (xy 180.34 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a7f51a4-ebd0-4622-91c5-8bbfa5bbcc01")
+	)
+	(wire
+		(pts
+			(xy 139.7 167.64) (xy 139.7 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b35b7b3-618a-427f-b9fb-52c15c3fe7d0")
+	)
+	(wire
+		(pts
+			(xy 190.5 105.41) (xy 190.5 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0be0db7b-ad95-45a0-9980-0f916395b918")
+	)
+	(wire
+		(pts
+			(xy 180.34 115.57) (xy 180.34 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0cc959ec-9437-405f-bab7-8c659874e529")
+	)
+	(wire
+		(pts
+			(xy 190.5 194.31) (xy 189.23 194.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f5a817f-37cd-45e8-9535-4335505763ca")
+	)
+	(wire
+		(pts
+			(xy 81.28 156.21) (xy 81.28 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "108ef9c1-7641-4b99-9fb8-ae400655ea8a")
+	)
+	(wire
+		(pts
+			(xy 137.16 232.41) (xy 137.16 233.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11414759-8b5f-4137-8aec-2bb06b13b3f8")
+	)
+	(wire
+		(pts
+			(xy 223.52 176.53) (xy 228.6 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "118c17a6-1ec2-4263-9c95-8fabcfa946e4")
+	)
+	(wire
+		(pts
+			(xy 181.61 187.96) (xy 180.34 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13393339-0a16-4561-805d-7fe70d242cf3")
+	)
+	(wire
+		(pts
+			(xy 181.61 81.28) (xy 180.34 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1384aa21-e854-4646-b689-d3823f44e48b")
+	)
+	(wire
+		(pts
+			(xy 88.9 156.21) (xy 88.9 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13d81c1d-2247-4449-af21-71cc78b06061")
+	)
+	(wire
+		(pts
+			(xy 190.5 166.37) (xy 190.5 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "149f3bda-2f86-4757-81eb-8cbd1e1b3199")
+	)
+	(wire
+		(pts
+			(xy 215.9 144.78) (xy 215.9 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15ee5ca1-1fe5-4fef-89be-0327db1f3bfd")
+	)
+	(wire
+		(pts
+			(xy 180.34 156.21) (xy 180.34 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16cdf61e-ce51-414c-9b1a-c5fc3e6628d8")
+	)
+	(wire
+		(pts
+			(xy 215.9 123.19) (xy 215.9 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17328fdf-ba2c-4fa2-af60-9a035bc6f556")
+	)
+	(wire
+		(pts
+			(xy 190.5 87.63) (xy 189.23 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17f4e4a2-d126-4346-9ecf-aff708ef13c3")
+	)
+	(wire
+		(pts
+			(xy 180.34 213.36) (xy 180.34 223.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1835ed29-cad2-4b48-b427-b71c516680bf")
+	)
+	(wire
+		(pts
+			(xy 190.5 146.05) (xy 189.23 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18e980d1-cb18-4611-aea1-268b0173514f")
+	)
+	(wire
+		(pts
+			(xy 180.34 194.31) (xy 180.34 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b37bb8c-38be-4232-ae99-912f9eafd69c")
+	)
+	(wire
+		(pts
+			(xy 215.9 129.54) (xy 215.9 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b69ad21-8036-4284-a832-800e0bc6e94a")
+	)
+	(wire
+		(pts
+			(xy 139.7 109.22) (xy 139.7 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ba03d3d-534f-4abb-bf26-7b3911283f1d")
+	)
+	(wire
+		(pts
+			(xy 190.5 49.53) (xy 190.5 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1bb75429-1aef-4d6f-970d-0de265a5a746")
+	)
+	(wire
+		(pts
+			(xy 199.39 233.68) (xy 199.39 223.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c058fce-90ee-4746-84fc-71e75387aaf4")
+	)
+	(wire
+		(pts
+			(xy 181.61 161.29) (xy 180.34 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21dbebff-7ce0-4918-9780-23535d934b7d")
+	)
+	(wire
+		(pts
+			(xy 180.34 68.58) (xy 180.34 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "236572cb-d8c3-47a4-815a-abe546b7e24c")
+	)
+	(wire
+		(pts
+			(xy 223.52 168.91) (xy 223.52 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24424c51-4c0c-4d25-b359-a98d1549b6e8")
+	)
+	(wire
+		(pts
+			(xy 88.9 129.54) (xy 88.9 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29fec883-5355-4edd-8289-b5ad33add3fe")
+	)
+	(wire
+		(pts
+			(xy 190.5 120.65) (xy 189.23 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a39611a-923c-4ef3-8f9b-6922367b53bf")
+	)
+	(wire
+		(pts
+			(xy 181.61 87.63) (xy 180.34 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a536056-66b9-4225-be97-ca501cef0ce5")
+	)
+	(wire
+		(pts
+			(xy 190.5 81.28) (xy 190.5 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ae494c6-e8df-4e0a-9dd0-cce6c4086ae4")
+	)
+	(wire
+		(pts
+			(xy 190.5 93.98) (xy 190.5 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c692c5e-bff3-487c-a219-c9a9b15c1a08")
+	)
+	(wire
+		(pts
+			(xy 180.34 205.74) (xy 180.34 213.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2cb4650a-08fc-416a-863a-0ee9a5d10b4a")
+	)
+	(wire
+		(pts
+			(xy 139.7 158.75) (xy 139.7 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2fe0723d-cefb-4986-891b-7dad5e03b221")
+	)
+	(wire
+		(pts
+			(xy 190.5 166.37) (xy 189.23 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34e885ee-9a24-40a5-bddb-ce477913791d")
+	)
+	(wire
+		(pts
+			(xy 223.52 104.14) (xy 223.52 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a5c8857-68f5-4ad1-bcef-e4a8c52fc29e")
+	)
+	(wire
+		(pts
+			(xy 226.06 99.06) (xy 223.52 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c80acbf-5a46-48e8-ab52-1165438c1bda")
+	)
+	(wire
+		(pts
+			(xy 180.34 166.37) (xy 180.34 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ed527ea-d39c-442d-9fac-bfb7d0cb2bb3")
+	)
+	(wire
+		(pts
+			(xy 81.28 162.56) (xy 81.28 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4071a70e-f576-40b7-b07f-c43217011179")
+	)
+	(wire
+		(pts
+			(xy 181.61 194.31) (xy 180.34 194.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41cb6fa0-79f1-4722-ab4b-116556f09677")
+	)
+	(wire
+		(pts
+			(xy 223.52 110.49) (xy 223.52 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44af2d04-89ad-4524-9c32-b3f0084eed5e")
+	)
+	(wire
+		(pts
+			(xy 132.08 109.22) (xy 132.08 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "463fdba4-0bfc-45ba-b50d-8e95aa1920e6")
+	)
+	(wire
+		(pts
+			(xy 190.5 135.89) (xy 189.23 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47046369-c4e9-4ce3-bf0f-9fedc34c31a9")
+	)
+	(wire
+		(pts
+			(xy 180.34 105.41) (xy 180.34 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47f04d57-db94-48e1-ab36-70c6a930d9a5")
+	)
+	(wire
+		(pts
+			(xy 139.7 95.25) (xy 139.7 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ad04f7e-751b-4e54-8a1c-807aa2a04620")
+	)
+	(wire
+		(pts
+			(xy 180.34 87.63) (xy 180.34 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4af026d9-4c13-42c7-8410-3f43b378da1c")
+	)
+	(wire
+		(pts
+			(xy 190.5 100.33) (xy 190.5 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4cc380ad-ea7d-4d08-ae34-0d0eaba03c0e")
+	)
+	(wire
+		(pts
+			(xy 190.5 176.53) (xy 190.5 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d8f3953-bafa-494b-9984-d8dc42f03bc8")
+	)
+	(wire
+		(pts
+			(xy 134.62 223.52) (xy 137.16 223.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e8051b9-e492-4e31-9d20-4449792f7c43")
+	)
+	(wire
+		(pts
+			(xy 180.34 135.89) (xy 180.34 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f42e8de-8b77-4de1-b90e-c3245e81fb24")
+	)
+	(wire
+		(pts
+			(xy 139.7 128.27) (xy 139.7 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51dd3959-efef-48ef-af9f-72b9c5ad1a70")
+	)
+	(wire
+		(pts
+			(xy 181.61 74.93) (xy 180.34 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53937bf1-ec36-4463-8356-1cb76ca70962")
+	)
+	(wire
+		(pts
+			(xy 215.9 135.89) (xy 215.9 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55dec91e-d9bf-47ac-9133-a672af2e20f1")
+	)
+	(wire
+		(pts
+			(xy 81.28 123.19) (xy 81.28 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5679d18a-d283-4f9e-8f47-a5395bdf9265")
+	)
+	(wire
+		(pts
+			(xy 132.08 232.41) (xy 132.08 233.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58358d8d-d539-498e-a08e-0c011dedee52")
+	)
+	(wire
+		(pts
+			(xy 181.61 93.98) (xy 180.34 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58a8146a-8cd9-43bf-a929-75239cb765c5")
+	)
+	(wire
+		(pts
+			(xy 212.09 223.52) (xy 219.71 223.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a00e86f-7864-4333-b690-b37c6bce99ca")
+	)
+	(wire
+		(pts
+			(xy 190.5 156.21) (xy 190.5 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c5c3bb8-30bc-4ee2-be4c-d0a645dbfb65")
+	)
+	(wire
+		(pts
+			(xy 129.54 205.74) (xy 180.34 205.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5fcb6f09-2ff8-4f97-85ab-2875a18c9328")
+	)
+	(wire
+		(pts
+			(xy 190.5 110.49) (xy 189.23 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60de5eda-fe7d-4bf2-bd3a-1f7ae03a51aa")
+	)
+	(wire
+		(pts
+			(xy 190.5 125.73) (xy 189.23 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "612e0b9d-0ffb-431e-8128-785f98c79723")
+	)
+	(wire
+		(pts
+			(xy 190.5 146.05) (xy 190.5 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62190204-388a-4b94-90cf-cec86b831cec")
+	)
+	(wire
+		(pts
+			(xy 137.16 223.52) (xy 137.16 224.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "623f160a-824a-489d-94f2-b92879e59fd0")
+	)
+	(wire
+		(pts
+			(xy 180.34 120.65) (xy 180.34 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6269b49d-6bf0-4873-b614-e56720319174")
+	)
+	(wire
+		(pts
+			(xy 215.9 110.49) (xy 215.9 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6596d23d-6864-41fa-9297-02a9e263e16e")
+	)
+	(wire
+		(pts
+			(xy 189.23 115.57) (xy 190.5 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65b1567b-3f1e-4c5d-ad1d-32abb98f4fcb")
+	)
+	(wire
+		(pts
+			(xy 181.61 62.23) (xy 180.34 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65cc87dd-9b4a-4c19-9c1c-6d5164ce1fce")
+	)
+	(wire
+		(pts
+			(xy 81.28 143.51) (xy 81.28 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "667133f7-360b-4382-a89e-db9000b124aa")
+	)
+	(wire
+		(pts
+			(xy 181.61 176.53) (xy 180.34 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69d2f03c-2368-411f-8278-6f49df2bb462")
+	)
+	(wire
+		(pts
+			(xy 190.5 74.93) (xy 189.23 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6aaf6c7c-85d8-4f05-8410-4cd0b9fa7870")
+	)
+	(wire
+		(pts
+			(xy 223.52 116.84) (xy 223.52 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6abfc0e8-e243-4d37-9eb2-2f892d563013")
+	)
+	(wire
+		(pts
+			(xy 180.34 181.61) (xy 180.34 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6adb40ad-22a3-4b4e-851f-c484be22171e")
+	)
+	(wire
+		(pts
+			(xy 85.09 226.06) (xy 93.98 226.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6baaea4a-b5fd-4bff-a87a-b57cfa2360ba")
+	)
+	(wire
+		(pts
+			(xy 181.61 171.45) (xy 180.34 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c924d0e-e709-4dfd-b7d4-ee86af5efc1e")
+	)
+	(wire
+		(pts
+			(xy 88.9 168.91) (xy 88.9 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6cc0bd0c-0429-4465-b5c8-c7e91974b199")
+	)
+	(wire
+		(pts
+			(xy 190.5 151.13) (xy 189.23 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d2876fc-14f5-4877-8116-6e9a1141e814")
+	)
+	(wire
+		(pts
+			(xy 181.61 140.97) (xy 180.34 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6eca7991-ab06-47ce-ae15-461395ffff68")
+	)
+	(wire
+		(pts
+			(xy 132.08 223.52) (xy 132.08 224.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7130738e-9ce4-476c-bcfb-cdb7c16e71c1")
+	)
+	(wire
+		(pts
+			(xy 215.9 116.84) (xy 215.9 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72ae8b6c-8350-48fa-a937-d5dca6975ae9")
+	)
+	(wire
+		(pts
+			(xy 180.34 140.97) (xy 180.34 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74ab2ae8-fcc0-4873-b083-44ee81283850")
+	)
+	(wire
+		(pts
+			(xy 139.7 142.24) (xy 139.7 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76556c41-cb18-457b-924d-a4dec5f70162")
+	)
+	(wire
+		(pts
+			(xy 88.9 137.16) (xy 88.9 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77375407-860e-4fa9-bde2-f6d5d9c0d91c")
+	)
+	(wire
+		(pts
+			(xy 181.61 166.37) (xy 180.34 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a4580c8-c7f8-451d-852b-348b546ec3c2")
+	)
+	(wire
+		(pts
+			(xy 139.7 102.87) (xy 139.7 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a586fda-7036-4687-8c25-4df28bf487fe")
+	)
+	(wire
+		(pts
+			(xy 190.5 171.45) (xy 190.5 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ad17d92-a152-4d7f-8761-67d2b8a76027")
+	)
+	(wire
+		(pts
+			(xy 190.5 161.29) (xy 190.5 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f5abec0-1b2d-4b3e-97e7-e374b7c8a01f")
+	)
+	(wire
+		(pts
+			(xy 88.9 116.84) (xy 88.9 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7fe6efca-52cb-4d96-9a30-1c4748b42517")
+	)
+	(wire
+		(pts
+			(xy 132.08 102.87) (xy 132.08 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "819ad8ee-4d97-4a1e-8f15-99acb94069ce")
+	)
+	(wire
+		(pts
+			(xy 190.5 130.81) (xy 190.5 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "832592c6-e1c1-471f-8fd2-2a49657023ff")
+	)
+	(wire
+		(pts
+			(xy 81.28 116.84) (xy 81.28 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8354be5c-4345-4e4a-a9a3-a124d1814c92")
+	)
+	(wire
+		(pts
+			(xy 139.7 171.45) (xy 143.51 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "837db33b-6b1f-4c60-af97-26201be70d12")
+	)
+	(wire
+		(pts
+			(xy 180.34 130.81) (xy 180.34 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83f5dfd4-cd8c-47a1-b40f-9a9a00351b30")
+	)
+	(wire
+		(pts
+			(xy 223.52 129.54) (xy 223.52 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85005ac0-df01-469e-9e41-cf5ccf797e55")
+	)
+	(wire
+		(pts
+			(xy 180.34 176.53) (xy 180.34 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8840bf17-a4fb-4e8b-8cc6-1410113f12e4")
+	)
+	(wire
+		(pts
+			(xy 139.7 134.62) (xy 139.7 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "890e9d39-3cd2-42bd-baab-bc76ca582685")
+	)
+	(wire
+		(pts
+			(xy 223.52 135.89) (xy 223.52 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a86523e-90ae-46fd-b46c-3753208c2a76")
+	)
+	(wire
+		(pts
+			(xy 139.7 121.92) (xy 139.7 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "919c6843-855b-4cc1-afb6-bfffc459aa54")
+	)
+	(wire
+		(pts
+			(xy 190.5 199.39) (xy 194.31 199.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9322b516-bfff-4cda-a3bc-2030af624c93")
+	)
+	(wire
+		(pts
+			(xy 129.54 167.64) (xy 132.08 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94eee8c6-22ad-4585-9c16-bc8111ec9828")
+	)
+	(wire
+		(pts
+			(xy 180.34 194.31) (xy 180.34 205.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99ce69fd-e7d0-4338-82e9-0e6693a47112")
+	)
+	(wire
+		(pts
+			(xy 181.61 68.58) (xy 180.34 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f0c78b0-d992-4d73-8734-6d5c005aee5d")
+	)
+	(wire
+		(pts
+			(xy 189.23 55.88) (xy 190.5 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f2c9ef0-207b-4b6a-b0d1-0b7aa856ebd7")
+	)
+	(wire
+		(pts
+			(xy 181.61 146.05) (xy 180.34 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0041827-1c31-4824-a53b-0d547e61f173")
+	)
+	(wire
+		(pts
+			(xy 101.6 226.06) (xy 107.95 226.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0c6e430-d36d-4e04-94c0-cda379de606d")
+	)
+	(wire
+		(pts
+			(xy 181.61 135.89) (xy 180.34 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1475616-d4bc-4982-bf16-b2055bf14753")
+	)
+	(wire
+		(pts
+			(xy 88.9 116.84) (xy 88.9 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1e101cd-4712-49bc-a94a-6a40dcfb4acf")
+	)
+	(wire
+		(pts
+			(xy 180.34 74.93) (xy 180.34 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a370381e-529e-458c-942c-46b3a07f15b1")
+	)
+	(wire
+		(pts
+			(xy 181.61 55.88) (xy 180.34 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a47e52cf-c264-4b99-9cdc-bb7b4495fa7d")
+	)
+	(wire
+		(pts
+			(xy 81.28 129.54) (xy 81.28 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5297d87-5728-49e7-832f-d75f33423229")
+	)
+	(wire
+		(pts
+			(xy 190.5 125.73) (xy 190.5 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8c87292-73d9-4a26-b1ee-68366f366910")
+	)
+	(wire
+		(pts
+			(xy 190.5 176.53) (xy 189.23 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa291246-b294-4053-942f-163ee8a2e31e")
+	)
+	(wire
+		(pts
+			(xy 190.5 140.97) (xy 189.23 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aaadd3ec-9951-4412-a29d-507cb552fde3")
+	)
+	(wire
+		(pts
+			(xy 181.61 105.41) (xy 180.34 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad3d56bd-c39a-421c-8232-8659709f135f")
+	)
+	(wire
+		(pts
+			(xy 180.34 81.28) (xy 180.34 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad81d3a3-6c60-4390-bdb2-5b488e396743")
+	)
+	(wire
+		(pts
+			(xy 180.34 110.49) (xy 180.34 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b11f9c2c-4c0d-439d-b5c5-43178e358cba")
+	)
+	(wire
+		(pts
+			(xy 181.61 120.65) (xy 180.34 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1c0ea63-3a24-4b80-a55b-0bc1b35e430b")
+	)
+	(wire
+		(pts
+			(xy 190.5 62.23) (xy 189.23 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b30e4966-985b-4704-861c-ee6a5b57897e")
+	)
+	(wire
+		(pts
+			(xy 181.61 100.33) (xy 180.34 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b38e1edd-e6a8-4f19-9443-8eef52c52fcf")
+	)
+	(wire
+		(pts
+			(xy 81.28 149.86) (xy 81.28 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b46463ca-f9d8-44f8-8af1-2e64f685035b")
+	)
+	(wire
+		(pts
+			(xy 139.7 115.57) (xy 139.7 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5ef5698-0eb5-4e5e-b566-36af2f40c086")
+	)
+	(wire
+		(pts
+			(xy 190.5 100.33) (xy 189.23 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b65d987a-f1ed-498c-8dcc-d11291a7b048")
+	)
+	(wire
+		(pts
+			(xy 134.62 220.98) (xy 134.62 223.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b82724cb-6cc3-4e05-a0e6-e0330a81e22a")
+	)
+	(wire
+		(pts
+			(xy 190.5 62.23) (xy 190.5 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8e4b8ab-acb2-409c-b515-e3857338d5b5")
+	)
+	(wire
+		(pts
+			(xy 190.5 161.29) (xy 190.5 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8f11d5b-1472-47ec-a787-e738c98cf033")
+	)
+	(wire
+		(pts
+			(xy 215.9 168.91) (xy 215.9 213.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "baffe35a-f089-43cd-aec5-63948dee5a0d")
+	)
+	(wire
+		(pts
+			(xy 190.5 135.89) (xy 190.5 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb747430-0420-4e99-8537-d9203c10a07b")
+	)
+	(wire
+		(pts
+			(xy 190.5 187.96) (xy 189.23 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf1387e4-4a35-47c6-81a4-625082df117e")
+	)
+	(wire
+		(pts
+			(xy 181.61 156.21) (xy 180.34 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bfa47644-087d-4ce2-a172-0c16e5af30c3")
+	)
+	(wire
+		(pts
+			(xy 190.5 105.41) (xy 189.23 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c042298b-08d2-435e-99f4-3b3ee1fdbb17")
+	)
+	(wire
+		(pts
+			(xy 223.52 99.06) (xy 223.52 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0ad809b-48a9-4df1-8b9e-90c115bcf448")
+	)
+	(wire
+		(pts
+			(xy 88.9 182.88) (xy 91.44 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1514c2f-cdab-4179-8fba-1126ab7064b5")
+	)
+	(wire
+		(pts
+			(xy 129.54 167.64) (xy 129.54 205.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c15f5753-a1b5-470c-a592-a38656cb190c")
+	)
+	(wire
+		(pts
+			(xy 190.5 74.93) (xy 190.5 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c31b284e-110c-42b4-8b11-e93108baca62")
+	)
+	(wire
+		(pts
+			(xy 190.5 161.29) (xy 189.23 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c360296b-ab3d-461c-b81e-1e2993319be0")
+	)
+	(wire
+		(pts
+			(xy 190.5 194.31) (xy 190.5 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6ca66b4-e610-4725-8767-7756df9c5c4b")
+	)
+	(wire
+		(pts
+			(xy 180.34 93.98) (xy 180.34 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7ae11f5-53dd-4134-8012-5885497a75cd")
+	)
+	(wire
+		(pts
+			(xy 180.34 223.52) (xy 199.39 223.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c986ea72-fb6e-4222-9294-08346b26eccc")
+	)
+	(wire
+		(pts
+			(xy 181.61 110.49) (xy 180.34 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca0fb460-f9ba-4ef2-83ed-a546a864af18")
+	)
+	(wire
+		(pts
+			(xy 81.28 205.74) (xy 129.54 205.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca27f1c1-e6d1-4a40-9604-adbcc62e2046")
+	)
+	(wire
+		(pts
+			(xy 132.08 121.92) (xy 132.08 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cadc9969-62bd-4122-a4c9-6cb7489ba6c7")
+	)
+	(wire
+		(pts
+			(xy 199.39 223.52) (xy 212.09 223.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb1bfb3e-028b-4ad2-9894-a0b0b440c0f4")
+	)
+	(wire
+		(pts
+			(xy 190.5 115.57) (xy 190.5 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc105dc0-d013-4a17-a206-0478bf800857")
+	)
+	(wire
+		(pts
+			(xy 190.5 156.21) (xy 189.23 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc714fab-4f2f-47eb-ac0a-0f904f2e7395")
+	)
+	(wire
+		(pts
+			(xy 180.34 125.73) (xy 180.34 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cdf60b80-7dcf-4092-bc8f-d31cb7b2a553")
+	)
+	(wire
+		(pts
+			(xy 137.16 233.68) (xy 144.78 233.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf0af0b4-c930-4c8a-ada4-5e293bd46ea3")
+	)
+	(wire
+		(pts
+			(xy 88.9 162.56) (xy 88.9 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0f525cf-fa7e-4340-84ba-70ab9cc850cb")
+	)
+	(wire
+		(pts
+			(xy 132.08 134.62) (xy 132.08 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2a18ca8-cbd4-4b05-bcf8-42d430b80a13")
+	)
+	(wire
+		(pts
+			(xy 132.08 223.52) (xy 134.62 223.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d34de35c-5fa3-44ff-b711-d70f97e8e545")
+	)
+	(wire
+		(pts
+			(xy 190.5 55.88) (xy 190.5 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d42ba2b6-14a3-4d7f-bb0d-88166ff36c25")
+	)
+	(wire
+		(pts
+			(xy 181.61 130.81) (xy 180.34 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d63356f6-d230-458b-b54b-c3a781922e19")
+	)
+	(wire
+		(pts
+			(xy 190.5 130.81) (xy 189.23 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d94af8bb-9a12-4343-af28-0920e24efff8")
+	)
+	(wire
+		(pts
+			(xy 176.53 233.68) (xy 185.42 233.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da233c6d-862f-454a-8fae-de1e02491911")
+	)
+	(wire
+		(pts
+			(xy 223.52 144.78) (xy 223.52 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da49a41d-952e-4b70-a513-ad37b421e2f6")
+	)
+	(wire
+		(pts
+			(xy 190.5 194.31) (xy 190.5 199.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "daf8b87f-9c78-4684-9074-bfa50a064a0c")
+	)
+	(wire
+		(pts
+			(xy 180.34 171.45) (xy 180.34 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de454f59-53d7-4a84-9a83-a9c893216a5f")
+	)
+	(wire
+		(pts
+			(xy 181.61 115.57) (xy 180.34 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dedafe9f-bf72-43cc-8cf8-41a9249d0de7")
+	)
+	(wire
+		(pts
+			(xy 132.08 128.27) (xy 132.08 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e06d5571-d42d-4333-83d4-748ac9be8ba2")
+	)
+	(wire
+		(pts
+			(xy 172.72 233.68) (xy 176.53 233.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e111509b-4fa3-45e7-ad69-9db2b29be9dd")
+	)
+	(wire
+		(pts
+			(xy 81.28 168.91) (xy 81.28 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2d79a6e-fd6c-490a-9f51-655df1cc5712")
+	)
+	(wire
+		(pts
+			(xy 88.9 123.19) (xy 88.9 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e518d01c-5348-442d-bc58-4175a9ca4564")
+	)
+	(wire
+		(pts
+			(xy 181.61 151.13) (xy 180.34 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e54b68e9-9154-4104-aa69-c34e9ea0db24")
+	)
+	(wire
+		(pts
+			(xy 180.34 151.13) (xy 180.34 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e570f814-54af-4b16-88c8-0710f1876227")
+	)
+	(wire
+		(pts
+			(xy 88.9 149.86) (xy 88.9 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5cbc120-478f-4827-acf4-1bfe128311dc")
+	)
+	(wire
+		(pts
+			(xy 81.28 175.26) (xy 81.28 205.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5fe89c2-b8e2-42bf-93a9-d1ff02d40f04")
+	)
+	(wire
+		(pts
+			(xy 223.52 160.02) (xy 223.52 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6c154b8-c4ff-4129-9f6f-aef3e355c5e4")
+	)
+	(wire
+		(pts
+			(xy 88.9 143.51) (xy 88.9 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e82e12f2-a729-4d1b-b1f9-9da86c0361d6")
+	)
+	(wire
+		(pts
+			(xy 190.5 93.98) (xy 189.23 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e89a57a0-13c0-4357-9408-451bc0c55d12")
+	)
+	(wire
+		(pts
+			(xy 180.34 100.33) (xy 180.34 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e968fd4c-5573-4395-ad34-e4253cd58d5f")
+	)
+	(wire
+		(pts
+			(xy 180.34 161.29) (xy 180.34 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eaf428c8-3832-4c6b-9b2b-cee604d0fa77")
+	)
+	(wire
+		(pts
+			(xy 137.16 233.68) (xy 132.08 233.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb3d70fe-83b1-4576-834c-fe3fe9abbfea")
+	)
+	(wire
+		(pts
+			(xy 190.5 68.58) (xy 189.23 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "edba1d57-f739-48a9-93eb-457ffc3d8389")
+	)
+	(wire
+		(pts
+			(xy 181.61 181.61) (xy 180.34 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "efeca28f-1205-45f9-bd4a-eca4e9d9b99e")
+	)
+	(wire
+		(pts
+			(xy 190.5 171.45) (xy 189.23 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0d79430-d0ef-422d-886d-680328e9e031")
+	)
+	(wire
+		(pts
+			(xy 190.5 181.61) (xy 189.23 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0e88efa-96c4-4043-912d-dff551ff44cc")
+	)
+	(wire
+		(pts
+			(xy 143.51 95.25) (xy 139.7 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f79117d1-a0d0-4c5a-a903-858bf5e305d1")
+	)
+	(wire
+		(pts
+			(xy 215.9 213.36) (xy 180.34 213.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f85a1656-547b-45eb-b9ed-b6b0992ec842")
+	)
+	(wire
+		(pts
+			(xy 88.9 175.26) (xy 88.9 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc06a5ee-9fdd-424c-bbbf-080f713352da")
+	)
+	(wire
+		(pts
+			(xy 132.08 142.24) (xy 132.08 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff288e09-edff-4c14-9248-9e42ec66cbde")
+	)
+	(wire
+		(pts
+			(xy 190.5 120.65) (xy 190.5 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff4803d6-5375-49c5-942a-079d7d6c6927")
+	)
+	(label "3.3VA_out"
+		(at 139.7 100.33 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "063ec602-2444-4c35-9fd6-995eed247147")
+	)
+	(label "3.3VA_out"
+		(at 144.78 233.68 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0ebeee86-ec7d-4468-9491-d2f83d494531")
+	)
+	(label "1.8V_out"
+		(at 88.9 106.68 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2c9052a0-bfd8-4998-9dae-e9b5f5550f69")
+	)
+	(label "3.3V_in"
+		(at 190.5 198.12 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "316ab645-594b-4854-8848-3381c1f1adc7")
+	)
+	(label "3.3_out"
+		(at 190.5 53.34 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9b920d80-5b82-49e1-a608-706da276fe11")
+	)
+	(label "1.8V_in"
+		(at 88.9 180.34 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "da8d71a1-8b8b-43ca-9e12-a3215e1e6098")
+	)
+	(label "3.3VA_in"
+		(at 139.7 170.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e40f7df7-2c99-494b-b688-ae46013c3235")
+	)
+	(hierarchical_label "3.3V_output"
+		(shape output)
+		(at 190.5 49.53 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2efcc915-3840-47af-87d3-11e05cee238e")
+	)
+	(hierarchical_label "3.3V_analog_input"
+		(shape input)
+		(at 143.51 171.45 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "41bd630b-f6b8-40a8-937e-0c070e778733")
+	)
+	(hierarchical_label "1.8V_input"
+		(shape input)
+		(at 91.44 182.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5ee2b011-e730-4315-bc96-ad772d17ad7f")
+	)
+	(hierarchical_label "1.8V_analog_input"
+		(shape input)
+		(at 228.6 176.53 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6146ef16-22c8-4964-8c59-7e7ae7c02614")
+	)
+	(hierarchical_label "GND_Input"
+		(shape input)
+		(at 219.71 223.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6d8db8a4-a8c1-416d-a5d2-170740da9fa1")
+	)
+	(hierarchical_label "VFBSMPS"
+		(shape input)
+		(at 85.09 226.06 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8b1fe0dd-7060-446d-b9f0-f681499133ab")
+	)
+	(hierarchical_label "VLXSMPS"
+		(shape input)
+		(at 107.95 226.06 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8c981578-f15b-4a9f-876e-f4b8c527a4e6")
+	)
+	(hierarchical_label "3.3V_ANALOG_output"
+		(shape output)
+		(at 143.51 95.25 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a45ac54f-4810-407e-813b-6905013e4fc4")
+	)
+	(hierarchical_label "1.8V_ANALOG_output"
+		(shape output)
+		(at 226.06 99.06 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cd56876f-bd0a-40cf-993e-1d5dbd7dfce8")
+	)
+	(hierarchical_label "V08CAP"
+		(shape output)
+		(at 172.72 233.68 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d1919ea9-ded3-480b-b00c-fe1dadf0d2d8")
+	)
+	(hierarchical_label "3.3v_input"
+		(shape input)
+		(at 194.31 199.39 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e2eb8921-a34b-4e26-99d2-c4483b2ddeeb")
+	)
+	(hierarchical_label "1.8V_CORE_Power_rail"
+		(shape output)
+		(at 88.9 99.06 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f816afb3-b87d-47a5-936d-a5be54ad357b")
+	)
+	(hierarchical_label "VREF+"
+		(shape output)
+		(at 134.62 220.98 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f8add779-24ba-4884-8702-6f55ebef4795")
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 185.42 110.49 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "006df6ec-386a-4fea-9c03-59bc16e1edb7")
+		(property "Reference" "C31"
+			(at 187.706 109.22 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 183.134 108.712 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 181.61 111.4552 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/609/CL05B104KP5NNNC_Spec.pdf"
+			(at 185.42 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "CAP CER 0.1UF 10V X7R 0402"
+			(at 185.42 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "part" "samsung CL05B104KP5NNNC"
+			(at 185.42 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4d4389f5-02e6-46d5-a69f-4f348af2e793")
+		)
+		(pin "2"
+			(uuid "10ac6d35-66c3-40ff-bfcd-4c0b67950de0")
+		)
+		(instances
+			(project "rb_arm"
+				(path "/a93ecf99-3544-49bb-a14b-d2cd0e95eb0e/b2c99ebf-fdb8-41bc-bd62-91103cbabf62"
+					(reference "C31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 219.71 129.54 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "02125c21-8a4a-43bb-9ede-c660ceca07e8")
+		(property "Reference" "C53"
+			(at 221.996 128.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 217.424 127.762 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 215.9 130.5052 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/609/CL05B104KP5NNNC_Spec.pdf"
+			(at 219.71 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "CAP CER 0.1UF 10V X7R 0402"
+			(at 219.71 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "part" "samsung CL05B104KP5NNNC"
+			(at 219.71 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6d9c1a58-6b45-4acb-b6f3-9df52d29cb21")
+		)
+		(pin "2"
+			(uuid "dd7c0816-380c-4b6b-91c0-5a3aa18101e2")
+		)
+		(instances
+			(project "rb_arm"
+				(path "/a93ecf99-3544-49bb-a14b-d2cd0e95eb0e/b2c99ebf-fdb8-41bc-bd62-91103cbabf62"
+					(reference "C53")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 85.09 143.51 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "0cb08bed-d59d-44ec-a5af-fd395e1b7804")
+		(property "Reference" "C6"
+			(at 87.376 142.24 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 82.804 141.732 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 81.28 144.4752 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/609/CL05B104KP5NNNC_Spec.pdf"
+			(at 85.09 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "CAP CER 0.1UF 10V X7R 0402"
+			(at 85.09 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "part" "samsung CL05B104KP5NNNC"
+			(at 85.09 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d34d5c60-0439-495f-9e27-4bddedee3ef0")
+		)
+		(pin "2"
+			(uuid "4b4e816d-af1a-47a8-a23c-ebec603dd22b")
+		)
+		(instances
+			(project "rb_arm"
+				(path "/a93ecf99-3544-49bb-a14b-d2cd0e95eb0e/b2c99ebf-fdb8-41bc-bd62-91103cbabf62"
+					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 185.42 161.29 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "0d72fad8-c757-4df1-be45-87a7f14b05d7")
+		(property "Reference" "C41"
+			(at 187.706 160.02 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 183.134 159.512 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 181.61 162.2552 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/609/CL05B104KP5NNNC_Spec.pdf"
+			(at 185.42 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "CAP CER 0.1UF 10V X7R 0402"
+			(at 185.42 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "part" "samsung CL05B104KP5NNNC"
+			(at 185.42 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "88965b64-b332-4100-9e1d-9af1127c22f2")
+		)
+		(pin "2"
+			(uuid "0e33e152-d35e-4069-9701-ebacb7d7c118")
+		)
+		(instances
+			(project "rb_arm"
+				(path "/a93ecf99-3544-49bb-a14b-d2cd0e95eb0e/b2c99ebf-fdb8-41bc-bd62-91103cbabf62"
+					(reference "C41")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 135.89 167.64 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "115e72bf-ff1d-48da-a30b-af790720998d")
+		(property "Reference" "C20"
+			(at 133.604 169.164 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22u"
+			(at 137.922 169.418 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 139.7 166.6748 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM158R61A226ME15-01A.pdf"
+			(at 135.89 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "CAP CER 22UF 10V X5R 0402"
+			(at 135.89 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "part" "Murata Electronics GRM158R61A226ME15D"
+			(at 135.89 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "b993356d-5dc2-4f1d-835a-37e5581bdd9f")
+		)
+		(pin "1"
+			(uuid "6e6a4e99-1229-4851-b040-36cf182661fa")
+		)
+		(instances
+			(project "rb_arm"
+				(path "/a93ecf99-3544-49bb-a14b-d2cd0e95eb0e/b2c99ebf-fdb8-41bc-bd62-91103cbabf62"
+					(reference "C20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 219.71 116.84 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "145bdcff-a10c-48b7-948d-9afd926eaf84")
+		(property "Reference" "C51"
+			(at 221.996 115.57 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 217.424 115.062 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 215.9 117.8052 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/609/CL05B104KP5NNNC_Spec.pdf"
+			(at 219.71 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "CAP CER 0.1UF 10V X7R 0402"
+			(at 219.71 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "part" "samsung CL05B104KP5NNNC"
+			(at 219.71 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e864696c-bafd-4992-ac16-a4f73b303258")
+		)
+		(pin "2"
+			(uuid "7ba5e26b-fd16-45ff-9441-866630f76e18")
+		)
+		(instances
+			(project "rb_arm"
+				(path "/a93ecf99-3544-49bb-a14b-d2cd0e95eb0e/b2c99ebf-fdb8-41bc-bd62-91103cbabf62"
+					(reference "C51")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 185.42 120.65 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "16ec8b53-4394-459a-9585-791d31c67433")
+		(property "Reference" "C33"
+			(at 187.706 119.38 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 183.134 118.872 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 181.61 121.6152 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/609/CL05B104KP5NNNC_Spec.pdf"
+			(at 185.42 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "CAP CER 0.1UF 10V X7R 0402"
+			(at 185.42 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "part" "samsung CL05B104KP5NNNC"
+			(at 185.42 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "cfc16273-6372-41f9-a15d-9a5817e99c32")
+		)
+		(pin "2"
+			(uuid "f8074395-f1fc-47c8-9e90-ec2e7a1831c8")
+		)
+		(instances
+			(project "rb_arm"
+				(path "/a93ecf99-3544-49bb-a14b-d2cd0e95eb0e/b2c99ebf-fdb8-41bc-bd62-91103cbabf62"
+					(reference "C33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 185.42 187.96 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "175e9e16-fdfc-44b8-97dc-92a93fa4a843")
+		(property "Reference" "C46"
+			(at 187.706 186.69 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 183.134 186.182 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 181.61 188.9252 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/609/CL05B104KP5NNNC_Spec.pdf"
+			(at 185.42 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "CAP CER 0.1UF 10V X7R 0402"
+			(at 185.42 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "part" "samsung CL05B104KP5NNNC"
+			(at 185.42 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1977576f-e223-4f31-b8b9-da825699b604")
+		)
+		(pin "2"
+			(uuid "a081e24d-5bdd-40e2-b4cf-10a62e666a77")
+		)
+		(instances
+			(project "rb_arm"
+				(path "/a93ecf99-3544-49bb-a14b-d2cd0e95eb0e/b2c99ebf-fdb8-41bc-bd62-91103cbabf62"
+					(reference "C46")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 85.09 149.86 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "18133938-6342-4bf8-b00e-3f09cbb17133")
+		(property "Reference" "C7"
+			(at 87.376 148.59 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 82.804 148.082 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 81.28 150.8252 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/609/CL05B104KP5NNNC_Spec.pdf"
+			(at 85.09 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "CAP CER 0.1UF 10V X7R 0402"
+			(at 85.09 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "part" "samsung CL05B104KP5NNNC"
+			(at 85.09 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "736d8d70-08ec-4cad-a5b9-49d3e08f78c5")
+		)
+		(pin "2"
+			(uuid "f9d9c2c2-082f-4742-a63e-27535e7942dd")
+		)
+		(instances
+			(project "rb_arm"
+				(path "/a93ecf99-3544-49bb-a14b-d2cd0e95eb0e/b2c99ebf-fdb8-41bc-bd62-91103cbabf62"
+					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 135.89 128.27 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1a195448-0c87-4efe-9665-09ef8fdcf4c5")
+		(property "Reference" "C17"
+			(at 138.176 127 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 133.604 126.492 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 132.08 129.2352 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/609/CL05B104KP5NNNC_Spec.pdf"
+			(at 135.89 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "CAP CER 0.1UF 10V X7R 0402"
+			(at 135.89 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "part" "samsung CL05B104KP5NNNC"
+			(at 135.89 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c796b9ef-b89f-4acb-a6ee-9469d909f2fd")
+		)
+		(pin "2"
+			(uuid "f466280b-027e-4efc-974d-50c886da54e9")
+		)
+		(instances
+			(project "rb_arm"
+				(path "/a93ecf99-3544-49bb-a14b-d2cd0e95eb0e/b2c99ebf-fdb8-41bc-bd62-91103cbabf62"
+					(reference "C17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 189.23 233.68 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "20e66586-78bf-4744-8ef6-0d51aa3747c9")
+		(property "Reference" "C48"
+			(at 186.944 235.204 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22u"
+			(at 191.262 235.458 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 193.04 232.7148 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM158R61A226ME15-01A.pdf"
+			(at 189.23 233.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "CAP CER 22UF 10V X5R 0402"
+			(at 189.23 233.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "part" "Murata Electronics GRM158R61A226ME15D"
+			(at 189.23 233.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "5702fa1d-a551-421c-a541-34333ad86dc2")
+		)
+		(pin "1"
+			(uuid "dad43767-ab89-4c72-b146-e45b0ba48c37")
+		)
+		(instances
+			(project "rb_arm"
+				(path "/a93ecf99-3544-49bb-a14b-d2cd0e95eb0e/b2c99ebf-fdb8-41bc-bd62-91103cbabf62"
+					(reference "C48")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 219.71 135.89 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "2a54ada6-2888-4d6a-8fba-d6e552953719")
+		(property "Reference" "C54"
+			(at 221.996 134.62 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 217.424 134.112 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 215.9 136.8552 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/609/CL05B104KP5NNNC_Spec.pdf"
+			(at 219.71 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "CAP CER 0.1UF 10V X7R 0402"
+			(at 219.71 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "part" "samsung CL05B104KP5NNNC"
+			(at 219.71 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "765a7fcb-536c-4f31-8e54-2732cc26b1fe")
+		)
+		(pin "2"
+			(uuid "8390f1e7-d641-4a0e-878b-a8f86f944764")
+		)
+		(instances
+			(project "rb_arm"
+				(path "/a93ecf99-3544-49bb-a14b-d2cd0e95eb0e/b2c99ebf-fdb8-41bc-bd62-91103cbabf62"
+					(reference "C54")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 185.42 62.23 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "2b79c6f3-d2ef-4f85-a5d1-adde120f97fe")
+		(property "Reference" "C23"
+			(at 187.706 60.96 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 183.134 60.452 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 181.61 63.1952 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/609/CL05B104KP5NNNC_Spec.pdf"
+			(at 185.42 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "CAP CER 0.1UF 10V X7R 0402"
+			(at 185.42 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "part" "samsung CL05B104KP5NNNC"
+			(at 185.42 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c9d97dca-18ce-422d-8409-6738c2a4f531")
+		)
+		(pin "2"
+			(uuid "d8ba4497-f8f1-4cc6-8f82-ba735eb8d614")
+		)
+		(instances
+			(project "rb_arm"
+				(path "/a93ecf99-3544-49bb-a14b-d2cd0e95eb0e/b2c99ebf-fdb8-41bc-bd62-91103cbabf62"
+					(reference "C23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 185.42 68.58 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "300eda5f-3233-49dc-b7e4-211058c9c5bc")
+		(property "Reference" "C24"
+			(at 187.706 67.31 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 183.134 66.802 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 181.61 69.5452 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/609/CL05B104KP5NNNC_Spec.pdf"
+			(at 185.42 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "CAP CER 0.1UF 10V X7R 0402"
+			(at 185.42 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "part" "samsung CL05B104KP5NNNC"
+			(at 185.42 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d6caf6d7-688d-40d2-a02c-9afd27ab4e81")
+		)
+		(pin "2"
+			(uuid "0a0f1ff2-81c1-4f58-9d6c-e1d47eca3489")
+		)
+		(instances
+			(project "rb_arm"
+				(path "/a93ecf99-3544-49bb-a14b-d2cd0e95eb0e/b2c99ebf-fdb8-41bc-bd62-91103cbabf62"
+					(reference "C24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 185.42 140.97 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "31606a45-1ed3-4bfa-8fce-b08dad35feb0")
+		(property "Reference" "C37"
+			(at 187.706 139.7 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 183.134 139.192 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 181.61 141.9352 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/609/CL05B104KP5NNNC_Spec.pdf"
+			(at 185.42 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "CAP CER 0.1UF 10V X7R 0402"
+			(at 185.42 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "part" "samsung CL05B104KP5NNNC"
+			(at 185.42 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e5efef49-9774-4db6-a5b5-52bac6b55153")
+		)
+		(pin "2"
+			(uuid "26e33f29-5167-4114-981d-3f5ffa9bcf80")
+		)
+		(instances
+			(project "rb_arm"
+				(path "/a93ecf99-3544-49bb-a14b-d2cd0e95eb0e/b2c99ebf-fdb8-41bc-bd62-91103cbabf62"
+					(reference "C37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 135.89 142.24 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3173a674-3fc5-42b1-8673-0ef8c032bd42")
+		(property "Reference" "C19"
+			(at 133.604 143.764 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22u"
+			(at 137.922 144.018 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 139.7 141.2748 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM158R61A226ME15-01A.pdf"
+			(at 135.89 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "CAP CER 22UF 10V X5R 0402"
+			(at 135.89 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "part" "Murata Electronics GRM158R61A226ME15D"
+			(at 135.89 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "855d4e1d-3067-4e92-94ff-6bf47c0131f3")
+		)
+		(pin "1"
+			(uuid "57541c12-bc34-425f-8a7d-d84df1ad6e10")
+		)
+		(instances
+			(project "rb_arm"
+				(path "/a93ecf99-3544-49bb-a14b-d2cd0e95eb0e/b2c99ebf-fdb8-41bc-bd62-91103cbabf62"
+					(reference "C19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 185.42 130.81 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "345652b1-3190-4aae-ba21-761f59e37c97")
+		(property "Reference" "C35"
+			(at 187.706 129.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 183.134 129.032 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 181.61 131.7752 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/609/CL05B104KP5NNNC_Spec.pdf"
+			(at 185.42 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "CAP CER 0.1UF 10V X7R 0402"
+			(at 185.42 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "part" "samsung CL05B104KP5NNNC"
+			(at 185.42 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a56278df-6f48-47e2-a259-6a729913562f")
+		)
+		(pin "2"
+			(uuid "b00ace2c-4d5f-422c-aa0a-27938073abad")
+		)
+		(instances
+			(project "rb_arm"
+				(path "/a93ecf99-3544-49bb-a14b-d2cd0e95eb0e/b2c99ebf-fdb8-41bc-bd62-91103cbabf62"
+					(reference "C35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 219.71 168.91 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "37601619-a19c-404b-99df-47accd8e1065")
+		(property "Reference" "C56"
+			(at 217.424 170.434 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22u"
+			(at 221.742 170.688 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 223.52 167.9448 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM158R61A226ME15-01A.pdf"
+			(at 219.71 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "CAP CER 22UF 10V X5R 0402"
+			(at 219.71 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "part" "Murata Electronics GRM158R61A226ME15D"
+			(at 219.71 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "3c1fe362-8182-41da-afae-9a0d8c9ca48e")
+		)
+		(pin "1"
+			(uuid "8bdabd47-4120-4223-9bf8-1d4a667b510d")
+		)
+		(instances
+			(project "rb_arm"
+				(path "/a93ecf99-3544-49bb-a14b-d2cd0e95eb0e/b2c99ebf-fdb8-41bc-bd62-91103cbabf62"
+					(reference "C56")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 132.08 228.6 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "382ceb2c-d24a-4e56-b094-43822c570ff0")
+		(property "Reference" "C12"
+			(at 133.35 230.886 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 133.858 226.314 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 131.1148 224.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/609/CL05B104KP5NNNC_Spec.pdf"
+			(at 132.08 228.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "CAP CER 0.1UF 10V X7R 0402"
+			(at 132.08 228.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "part" "samsung CL05B104KP5NNNC"
+			(at 132.08 228.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "eee267ce-2917-4b0e-9093-d1e5cc417165")
+		)
+		(pin "2"
+			(uuid "4e967b74-dc1c-41d5-84d7-27ffa2ef2aa1")
+		)
+		(instances
+			(project "rb_arm"
+				(path "/a93ecf99-3544-49bb-a14b-d2cd0e95eb0e/b2c99ebf-fdb8-41bc-bd62-91103cbabf62"
+					(reference "C12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:FerriteBead")
+		(at 223.52 156.21 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3a14b179-9ff0-4c74-8687-a66e308bb73f")
+		(property "Reference" "FB2"
+			(at 230.378 157.48 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "120ohm"
+			(at 232.156 160.02 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
+			(at 225.298 156.21 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://pim.murata.com/asset/pim4/ferriteBeadInductortypefilter/ENFA0003_PDF_FERRITEBEADINDUCTORTYPEFILTER?lastModifiedDatetime=20250707190934"
+			(at 223.52 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "FERRITE BEAD 120 OHM 0603 1LN"
+			(at 223.52 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "part" "Murata Electronics BLM18AG121SN1D"
+			(at 223.52 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "4381b91a-3be3-410d-85bd-fba20e8efe71")
+		)
+		(pin "1"
+			(uuid "7c3216bb-ac08-4ef0-8bbd-532e242da42a")
+		)
+		(instances
+			(project "rb_arm"
+				(path "/a93ecf99-3544-49bb-a14b-d2cd0e95eb0e/b2c99ebf-fdb8-41bc-bd62-91103cbabf62"
+					(reference "FB2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 185.42 151.13 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4d4a9722-e732-4e7b-b929-6ec8f89ede48")
+		(property "Reference" "C39"
+			(at 187.706 149.86 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 183.134 149.352 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 181.61 152.0952 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/609/CL05B104KP5NNNC_Spec.pdf"
+			(at 185.42 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "CAP CER 0.1UF 10V X7R 0402"
+			(at 185.42 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "part" "samsung CL05B104KP5NNNC"
+			(at 185.42 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b832159e-cdf9-46af-97c7-5584c1a13647")
+		)
+		(pin "2"
+			(uuid "8acd8af4-3476-456f-94bf-82200d614124")
+		)
+		(instances
+			(project "rb_arm"
+				(path "/a93ecf99-3544-49bb-a14b-d2cd0e95eb0e/b2c99ebf-fdb8-41bc-bd62-91103cbabf62"
+					(reference "C39")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 85.09 137.16 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5aff91d7-00e6-4cd3-bad2-c14725c7f00e")
+		(property "Reference" "C5"
+			(at 87.376 135.89 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 82.804 135.382 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 81.28 138.1252 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/609/CL05B104KP5NNNC_Spec.pdf"
+			(at 85.09 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "CAP CER 0.1UF 10V X7R 0402"
+			(at 85.09 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "part" "samsung CL05B104KP5NNNC"
+			(at 85.09 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5162ae02-c1cf-4a91-9772-a594cb957abc")
+		)
+		(pin "2"
+			(uuid "c753586d-c38e-4a5c-80de-fb300406782d")
+		)
+		(instances
+			(project "rb_arm"
+				(path "/a93ecf99-3544-49bb-a14b-d2cd0e95eb0e/b2c99ebf-fdb8-41bc-bd62-91103cbabf62"
+					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 85.09 129.54 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "71733b5d-f39b-48f0-a4ad-76caf9aa7365")
+		(property "Reference" "C4"
+			(at 87.376 128.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 82.804 127.762 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 81.28 130.5052 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/609/CL05B104KP5NNNC_Spec.pdf"
+			(at 85.09 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "CAP CER 0.1UF 10V X7R 0402"
+			(at 85.09 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "part" "samsung CL05B104KP5NNNC"
+			(at 85.09 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "dd431583-2e7c-40a4-8512-8fcc5cd58911")
+		)
+		(pin "2"
+			(uuid "d63a21bb-412f-42f3-9529-0064f72f51b4")
+		)
+		(instances
+			(project "rb_arm"
+				(path "/a93ecf99-3544-49bb-a14b-d2cd0e95eb0e/b2c99ebf-fdb8-41bc-bd62-91103cbabf62"
+					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 185.42 115.57 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "719b3aa8-ea9a-4ab6-ad12-7d60d5296f4a")
+		(property "Reference" "C32"
+			(at 187.706 114.3 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 183.134 113.792 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 181.61 116.5352 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/609/CL05B104KP5NNNC_Spec.pdf"
+			(at 185.42 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "CAP CER 0.1UF 10V X7R 0402"
+			(at 185.42 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "part" "samsung CL05B104KP5NNNC"
+			(at 185.42 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "52ed26fb-4fce-42e3-b5bc-e5e2142c0e01")
+		)
+		(pin "2"
+			(uuid "d7b6ef42-bc77-4f9e-b7c5-c3d93f2d8648")
+		)
+		(instances
+			(project "rb_arm"
+				(path "/a93ecf99-3544-49bb-a14b-d2cd0e95eb0e/b2c99ebf-fdb8-41bc-bd62-91103cbabf62"
+					(reference "C32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 219.71 123.19 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "720f5ce6-c447-4102-924b-c37b1983f3df")
+		(property "Reference" "C52"
+			(at 221.996 121.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 217.424 121.412 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 215.9 124.1552 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/609/CL05B104KP5NNNC_Spec.pdf"
+			(at 219.71 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "CAP CER 0.1UF 10V X7R 0402"
+			(at 219.71 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "part" "samsung CL05B104KP5NNNC"
+			(at 219.71 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1a2ec48b-3eb5-4297-8d0f-d272c3a05225")
+		)
+		(pin "2"
+			(uuid "ac17b813-169b-4de9-9e0e-8fb773bf2765")
+		)
+		(instances
+			(project "rb_arm"
+				(path "/a93ecf99-3544-49bb-a14b-d2cd0e95eb0e/b2c99ebf-fdb8-41bc-bd62-91103cbabf62"
+					(reference "C52")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 219.71 110.49 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7571cda0-9940-47b9-a04e-b04a1205c3c9")
+		(property "Reference" "C50"
+			(at 221.996 109.22 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 217.424 108.712 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 215.9 111.4552 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/609/CL05B104KP5NNNC_Spec.pdf"
+			(at 219.71 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "CAP CER 0.1UF 10V X7R 0402"
+			(at 219.71 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "part" "samsung CL05B104KP5NNNC"
+			(at 219.71 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f2618012-0a8d-461e-8c99-262ae87987a1")
+		)
+		(pin "2"
+			(uuid "667aa5b4-11e3-4515-9352-b39e5642881a")
+		)
+		(instances
+			(project "rb_arm"
+				(path "/a93ecf99-3544-49bb-a14b-d2cd0e95eb0e/b2c99ebf-fdb8-41bc-bd62-91103cbabf62"
+					(reference "C50")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 219.71 104.14 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "76d5f313-2964-4333-93c9-315d0116b7af")
+		(property "Reference" "C49"
+			(at 221.996 102.87 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 217.424 102.362 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 215.9 105.1052 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/609/CL05B104KP5NNNC_Spec.pdf"
+			(at 219.71 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "CAP CER 0.1UF 10V X7R 0402"
+			(at 219.71 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "part" "samsung CL05B104KP5NNNC"
+			(at 219.71 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5db55e83-80fd-410a-aaa8-27bcd02c42bb")
+		)
+		(pin "2"
+			(uuid "77f0308a-d61e-4fba-8d24-a8794369bc1e")
+		)
+		(instances
+			(project "rb_arm"
+				(path "/a93ecf99-3544-49bb-a14b-d2cd0e95eb0e/b2c99ebf-fdb8-41bc-bd62-91103cbabf62"
+					(reference "C49")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 185.42 100.33 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7ce1208b-d5fb-480b-bc13-7c0c818259b6")
+		(property "Reference" "C29"
+			(at 187.706 99.06 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 183.134 98.552 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 181.61 101.2952 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/609/CL05B104KP5NNNC_Spec.pdf"
+			(at 185.42 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "CAP CER 0.1UF 10V X7R 0402"
+			(at 185.42 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "part" "samsung CL05B104KP5NNNC"
+			(at 185.42 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2de6117e-08ec-4839-9abd-7a23ee7bd1c5")
+		)
+		(pin "2"
+			(uuid "59f022db-ed0c-4532-992d-34d6504ea762")
+		)
+		(instances
+			(project "rb_arm"
+				(path "/a93ecf99-3544-49bb-a14b-d2cd0e95eb0e/b2c99ebf-fdb8-41bc-bd62-91103cbabf62"
+					(reference "C29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:FerriteBead")
+		(at 139.7 154.94 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7d9495b3-96fc-42ea-8cd2-3c20ba3d906b")
+		(property "Reference" "FB1"
+			(at 146.558 156.21 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "120ohm"
+			(at 148.336 158.75 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
+			(at 141.478 154.94 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://pim.murata.com/asset/pim4/ferriteBeadInductortypefilter/ENFA0003_PDF_FERRITEBEADINDUCTORTYPEFILTER?lastModifiedDatetime=20250707190934"
+			(at 139.7 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "FERRITE BEAD 120 OHM 0603 1LN"
+			(at 139.7 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "part" "Murata Electronics BLM18AG121SN1D"
+			(at 139.7 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "3b0dbf66-7420-408a-88ee-afaf6c8f6af2")
+		)
+		(pin "1"
+			(uuid "7cc2f424-b3ea-4903-953d-7348816b9866")
+		)
+		(instances
+			(project "rb_arm"
+				(path "/a93ecf99-3544-49bb-a14b-d2cd0e95eb0e/b2c99ebf-fdb8-41bc-bd62-91103cbabf62"
+					(reference "FB1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L")
+		(at 97.79 226.06 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "82f67fbb-49d1-4248-b172-dfb171606831")
+		(property "Reference" "L1"
+			(at 97.79 220.98 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2.2u"
+			(at 97.79 223.52 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_Wuerth_MAPI-4020"
+			(at 97.79 226.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 97.79 226.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Manufacturer   Monolithic Power Systems Inc. Manufacturer Product Number   MPL-AL4020-2R2 Description   FIXED IND 2.2UH 5.5A 21.5 MOHM"
+			(at 97.79 226.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7a2106fa-52f0-4690-85ee-0e328c6cf570")
+		)
+		(pin "2"
+			(uuid "c757fc7b-7cb8-4719-a5a6-0ac15b75677f")
+		)
+		(instances
+			(project "rb_arm"
+				(path "/a93ecf99-3544-49bb-a14b-d2cd0e95eb0e/b2c99ebf-fdb8-41bc-bd62-91103cbabf62"
+					(reference "L1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3VA")
+		(at 139.7 95.25 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "857309b6-d08c-4201-ba88-59e3e5089529")
+		(property "Reference" "#PWR050"
+			(at 139.7 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3V3A"
+			(at 139.7 90.17 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 139.7 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3VA\""
+			(at 139.7 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d14f5ed0-1df0-46a8-bfa6-7dbae96d8e17")
+		)
+		(instances
+			(project "rb_arm"
+				(path "/a93ecf99-3544-49bb-a14b-d2cd0e95eb0e/b2c99ebf-fdb8-41bc-bd62-91103cbabf62"
+					(reference "#PWR050")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 85.09 156.21 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8ac39e32-5f4c-41a2-9af9-731f41270e44")
+		(property "Reference" "C8"
+			(at 82.804 157.734 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22u"
+			(at 87.122 157.988 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 88.9 155.2448 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM158R61A226ME15-01A.pdf"
+			(at 85.09 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "CAP CER 22UF 10V X5R 0402"
+			(at 85.09 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "part" "Murata Electronics GRM158R61A226ME15D"
+			(at 85.09 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "cc8aa68b-f60c-4b92-b697-a0c97ea26b96")
+		)
+		(pin "1"
+			(uuid "bda76e51-d7e2-46f0-b172-ca7c41d34a57")
+		)
+		(instances
+			(project "rb_arm"
+				(path "/a93ecf99-3544-49bb-a14b-d2cd0e95eb0e/b2c99ebf-fdb8-41bc-bd62-91103cbabf62"
+					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 135.89 121.92 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8f07c88f-a516-45c3-b13c-b22f8b846b24")
+		(property "Reference" "C16"
+			(at 138.176 120.65 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 133.604 120.142 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 132.08 122.8852 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/609/CL05B104KP5NNNC_Spec.pdf"
+			(at 135.89 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "CAP CER 0.1UF 10V X7R 0402"
+			(at 135.89 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "part" "samsung CL05B104KP5NNNC"
+			(at 135.89 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1c20af77-55ba-404a-949e-36ee95c39ca5")
+		)
+		(pin "2"
+			(uuid "bdd098e3-c56b-4a49-b0a6-118d819e6aa2")
+		)
+		(instances
+			(project "rb_arm"
+				(path "/a93ecf99-3544-49bb-a14b-d2cd0e95eb0e/b2c99ebf-fdb8-41bc-bd62-91103cbabf62"
+					(reference "C16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 185.42 135.89 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "901c857f-fa03-4aff-b740-c2c3da27209f")
+		(property "Reference" "C36"
+			(at 187.706 134.62 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 183.134 134.112 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 181.61 136.8552 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/609/CL05B104KP5NNNC_Spec.pdf"
+			(at 185.42 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "CAP CER 0.1UF 10V X7R 0402"
+			(at 185.42 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "part" "samsung CL05B104KP5NNNC"
+			(at 185.42 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7c1a6468-25e8-44ff-9708-bf08e79a2d50")
+		)
+		(pin "2"
+			(uuid "da8d12f7-0fff-4c56-966d-212596762e49")
+		)
+		(instances
+			(project "rb_arm"
+				(path "/a93ecf99-3544-49bb-a14b-d2cd0e95eb0e/b2c99ebf-fdb8-41bc-bd62-91103cbabf62"
+					(reference "C36")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 185.42 125.73 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "97d1c418-44a2-4ed3-9aa2-bee3aeb1e2ff")
+		(property "Reference" "C34"
+			(at 187.706 124.46 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 183.134 123.952 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 181.61 126.6952 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/609/CL05B104KP5NNNC_Spec.pdf"
+			(at 185.42 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "CAP CER 0.1UF 10V X7R 0402"
+			(at 185.42 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "part" "samsung CL05B104KP5NNNC"
+			(at 185.42 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "863369c9-04e7-4a7c-8f69-3383adf8a0e9")
+		)
+		(pin "2"
+			(uuid "100ea05f-9d41-4836-a928-4f7c9505df74")
+		)
+		(instances
+			(project "rb_arm"
+				(path "/a93ecf99-3544-49bb-a14b-d2cd0e95eb0e/b2c99ebf-fdb8-41bc-bd62-91103cbabf62"
+					(reference "C34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 185.42 87.63 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "97fbef86-8a87-48db-8bc9-8d22c9ada81d")
+		(property "Reference" "C27"
+			(at 187.706 86.36 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 183.134 85.852 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 181.61 88.5952 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/609/CL05B104KP5NNNC_Spec.pdf"
+			(at 185.42 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "CAP CER 0.1UF 10V X7R 0402"
+			(at 185.42 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "part" "samsung CL05B104KP5NNNC"
+			(at 185.42 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "48778fde-994d-4d79-8755-6671e5688bf1")
+		)
+		(pin "2"
+			(uuid "db43017e-0ebe-45ff-b844-5a80a51ad4a5")
+		)
+		(instances
+			(project "rb_arm"
+				(path "/a93ecf99-3544-49bb-a14b-d2cd0e95eb0e/b2c99ebf-fdb8-41bc-bd62-91103cbabf62"
+					(reference "C27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 85.09 116.84 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9a174a55-e6dc-4ea4-acb0-5c0d88941e76")
+		(property "Reference" "C2"
+			(at 87.376 115.57 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 82.804 115.062 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 81.28 117.8052 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/609/CL05B104KP5NNNC_Spec.pdf"
+			(at 85.09 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "CAP CER 0.1UF 10V X7R 0402"
+			(at 85.09 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "part" "samsung CL05B104KP5NNNC"
+			(at 85.09 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "03bb9f9f-6497-4894-8858-d57a8dcb93e7")
+		)
+		(pin "2"
+			(uuid "73d8ba59-100b-463a-b377-2f41e13dec24")
+		)
+		(instances
+			(project "rb_arm"
+				(path "/a93ecf99-3544-49bb-a14b-d2cd0e95eb0e/b2c99ebf-fdb8-41bc-bd62-91103cbabf62"
+					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 85.09 175.26 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9b9264de-9d7d-4b73-86aa-1f0c6d0734c2")
+		(property "Reference" "C11"
+			(at 82.804 176.784 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22u"
+			(at 87.122 177.038 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 88.9 174.2948 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM158R61A226ME15-01A.pdf"
+			(at 85.09 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "CAP CER 22UF 10V X5R 0402"
+			(at 85.09 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "part" "Murata Electronics GRM158R61A226ME15D"
+			(at 85.09 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "73037ded-e6eb-4f34-a1f3-f75193f3cf14")
+		)
+		(pin "1"
+			(uuid "0d4c919e-ffc9-4629-8faa-119a6343f796")
+		)
+		(instances
+			(project "rb_arm"
+				(path "/a93ecf99-3544-49bb-a14b-d2cd0e95eb0e/b2c99ebf-fdb8-41bc-bd62-91103cbabf62"
+					(reference "C11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 185.42 156.21 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9b9ea512-1ebb-44de-8675-c8565bb63035")
+		(property "Reference" "C40"
+			(at 187.706 154.94 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 183.134 154.432 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 181.61 157.1752 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/609/CL05B104KP5NNNC_Spec.pdf"
+			(at 185.42 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "CAP CER 0.1UF 10V X7R 0402"
+			(at 185.42 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "part" "samsung CL05B104KP5NNNC"
+			(at 185.42 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "17ac4706-0a89-470f-9cf3-32e568a50941")
+		)
+		(pin "2"
+			(uuid "6fac0a77-5dd7-42df-aa96-4afe1e57e445")
+		)
+		(instances
+			(project "rb_arm"
+				(path "/a93ecf99-3544-49bb-a14b-d2cd0e95eb0e/b2c99ebf-fdb8-41bc-bd62-91103cbabf62"
+					(reference "C40")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 185.42 74.93 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9d2d2eaf-7865-445c-9504-95af3bdc1f6c")
+		(property "Reference" "C25"
+			(at 187.706 73.66 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 183.134 73.152 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 181.61 75.8952 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/609/CL05B104KP5NNNC_Spec.pdf"
+			(at 185.42 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "CAP CER 0.1UF 10V X7R 0402"
+			(at 185.42 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "part" "samsung CL05B104KP5NNNC"
+			(at 185.42 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "17ec384c-c635-4f5f-8888-2a20693acc9b")
+		)
+		(pin "2"
+			(uuid "599fd9bb-8431-49f1-a984-b9fe89489a00")
+		)
+		(instances
+			(project "rb_arm"
+				(path "/a93ecf99-3544-49bb-a14b-d2cd0e95eb0e/b2c99ebf-fdb8-41bc-bd62-91103cbabf62"
+					(reference "C25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 185.42 93.98 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9d9f52be-d95f-441d-938e-9a617cb804d3")
+		(property "Reference" "C28"
+			(at 187.706 92.71 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 183.134 92.202 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 181.61 94.9452 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/609/CL05B104KP5NNNC_Spec.pdf"
+			(at 185.42 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "CAP CER 0.1UF 10V X7R 0402"
+			(at 185.42 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "part" "samsung CL05B104KP5NNNC"
+			(at 185.42 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "dca5ad89-3501-42b5-99a2-c4659a6a6510")
+		)
+		(pin "2"
+			(uuid "c97936c3-08c2-4253-b844-c4067d5c43de")
+		)
+		(instances
+			(project "rb_arm"
+				(path "/a93ecf99-3544-49bb-a14b-d2cd0e95eb0e/b2c99ebf-fdb8-41bc-bd62-91103cbabf62"
+					(reference "C28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 185.42 105.41 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a3947395-a6b8-4ec1-9432-5134b094ea94")
+		(property "Reference" "C30"
+			(at 187.706 104.14 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 183.134 103.632 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 181.61 106.3752 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/609/CL05B104KP5NNNC_Spec.pdf"
+			(at 185.42 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "CAP CER 0.1UF 10V X7R 0402"
+			(at 185.42 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "part" "samsung CL05B104KP5NNNC"
+			(at 185.42 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "975dc178-1d26-4616-95b1-4d4bcb9b124e")
+		)
+		(pin "2"
+			(uuid "4e1c9bf5-b80c-47c7-87cf-c3fcff1917cb")
+		)
+		(instances
+			(project "rb_arm"
+				(path "/a93ecf99-3544-49bb-a14b-d2cd0e95eb0e/b2c99ebf-fdb8-41bc-bd62-91103cbabf62"
+					(reference "C30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 185.42 55.88 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "aea6e2a2-7517-401c-97be-3d8956944a3f")
+		(property "Reference" "C22"
+			(at 187.706 54.61 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 183.134 54.102 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 181.61 56.8452 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/609/CL05B104KP5NNNC_Spec.pdf"
+			(at 185.42 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "CAP CER 0.1UF 10V X7R 0402"
+			(at 185.42 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "part" "samsung CL05B104KP5NNNC"
+			(at 185.42 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9e891fb3-e0ee-4331-8a64-6e23fc7b11f2")
+		)
+		(pin "2"
+			(uuid "8191d3c7-784c-42c1-a853-4253d4700df6")
+		)
+		(instances
+			(project "rb_arm"
+				(path "/a93ecf99-3544-49bb-a14b-d2cd0e95eb0e/b2c99ebf-fdb8-41bc-bd62-91103cbabf62"
+					(reference "C22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 185.42 181.61 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "bbe19da2-d562-4ca3-9b2e-7fddce8db175")
+		(property "Reference" "C45"
+			(at 187.706 180.34 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 183.134 179.832 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 181.61 182.5752 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/609/CL05B104KP5NNNC_Spec.pdf"
+			(at 185.42 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "CAP CER 0.1UF 10V X7R 0402"
+			(at 185.42 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "part" "samsung CL05B104KP5NNNC"
+			(at 185.42 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fec79c34-7b04-4741-99c9-77b0812a6eec")
+		)
+		(pin "2"
+			(uuid "1ad7be1a-148e-4c8b-b928-170a9a74bf49")
+		)
+		(instances
+			(project "rb_arm"
+				(path "/a93ecf99-3544-49bb-a14b-d2cd0e95eb0e/b2c99ebf-fdb8-41bc-bd62-91103cbabf62"
+					(reference "C45")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 219.71 144.78 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "bfd0c6da-a677-4573-960e-94c96d4ac0f6")
+		(property "Reference" "C55"
+			(at 217.424 146.304 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22u"
+			(at 221.742 146.558 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 223.52 143.8148 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM158R61A226ME15-01A.pdf"
+			(at 219.71 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "CAP CER 22UF 10V X5R 0402"
+			(at 219.71 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "part" "Murata Electronics GRM158R61A226ME15D"
+			(at 219.71 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "9b54b711-b56c-4b89-99b0-64da1056a13a")
+		)
+		(pin "1"
+			(uuid "f88f4425-e7e2-4358-b66b-4383420145b6")
+		)
+		(instances
+			(project "rb_arm"
+				(path "/a93ecf99-3544-49bb-a14b-d2cd0e95eb0e/b2c99ebf-fdb8-41bc-bd62-91103cbabf62"
+					(reference "C55")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 132.08 223.52 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c047c8f3-3230-46ee-a034-19630dbd12a3")
+		(property "Reference" "#FLG07"
+			(at 130.175 223.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 128.27 223.5199 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 132.08 223.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 132.08 223.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 132.08 223.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a222ec2f-5a73-4812-ba15-2e9af772aa84")
+		)
+		(instances
+			(project "rb_arm"
+				(path "/a93ecf99-3544-49bb-a14b-d2cd0e95eb0e/b2c99ebf-fdb8-41bc-bd62-91103cbabf62"
+					(reference "#FLG07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 135.89 115.57 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ca44349a-d6c1-4938-b434-30dd51bcaa8b")
+		(property "Reference" "C15"
+			(at 138.176 114.3 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 133.604 113.792 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 132.08 116.5352 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/609/CL05B104KP5NNNC_Spec.pdf"
+			(at 135.89 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "CAP CER 0.1UF 10V X7R 0402"
+			(at 135.89 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "part" "samsung CL05B104KP5NNNC"
+			(at 135.89 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "40413e8a-cee5-4c70-aa64-9ec67dde603b")
+		)
+		(pin "2"
+			(uuid "594c9b4c-15c8-4fae-a0fb-046435cfe0d6")
+		)
+		(instances
+			(project "rb_arm"
+				(path "/a93ecf99-3544-49bb-a14b-d2cd0e95eb0e/b2c99ebf-fdb8-41bc-bd62-91103cbabf62"
+					(reference "C15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 135.89 134.62 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "cca1dd11-7116-40fe-b5b5-212925e53ce7")
+		(property "Reference" "C18"
+			(at 138.176 133.35 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 133.604 132.842 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 132.08 135.5852 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/609/CL05B104KP5NNNC_Spec.pdf"
+			(at 135.89 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "CAP CER 0.1UF 10V X7R 0402"
+			(at 135.89 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "part" "samsung CL05B104KP5NNNC"
+			(at 135.89 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6ed6f551-812d-49f9-a737-253228fbb0b0")
+		)
+		(pin "2"
+			(uuid "164560c6-dca0-42b9-9c67-b5e2dfe617f5")
+		)
+		(instances
+			(project "rb_arm"
+				(path "/a93ecf99-3544-49bb-a14b-d2cd0e95eb0e/b2c99ebf-fdb8-41bc-bd62-91103cbabf62"
+					(reference "C18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 176.53 233.68 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cd7fe957-4fb9-4c9c-88ee-dcdef1a4cc95")
+		(property "Reference" "TP2"
+			(at 179.07 229.1079 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "VCAP"
+			(at 179.07 231.6479 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_Pin:Pin_D1.0mm_L10.0mm"
+			(at 181.61 233.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 181.61 233.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 176.53 233.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1c1199a2-de6f-412b-aa23-a9decb7c83c7")
+		)
+		(instances
+			(project "rb_arm"
+				(path "/a93ecf99-3544-49bb-a14b-d2cd0e95eb0e/b2c99ebf-fdb8-41bc-bd62-91103cbabf62"
+					(reference "TP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 185.42 176.53 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ce290ec3-c4a4-4153-bd80-a9cd85ebe7dc")
+		(property "Reference" "C44"
+			(at 187.706 175.26 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 183.134 174.752 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 181.61 177.4952 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/609/CL05B104KP5NNNC_Spec.pdf"
+			(at 185.42 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "CAP CER 0.1UF 10V X7R 0402"
+			(at 185.42 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "part" "samsung CL05B104KP5NNNC"
+			(at 185.42 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "071d0912-7d45-4e78-ac21-53ce64ed4184")
+		)
+		(pin "2"
+			(uuid "c9e52995-650b-499d-9195-f31d3d6e8a2d")
+		)
+		(instances
+			(project "rb_arm"
+				(path "/a93ecf99-3544-49bb-a14b-d2cd0e95eb0e/b2c99ebf-fdb8-41bc-bd62-91103cbabf62"
+					(reference "C44")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDPWR")
+		(at 212.09 223.52 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ce99d7f7-8a4b-461f-8b36-3b6517ac81c1")
+		(property "Reference" "#PWR051"
+			(at 212.09 228.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GNDPWR"
+			(at 211.963 227.33 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 212.09 224.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 212.09 224.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
+			(at 212.09 223.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b5d7582b-b7fd-45af-bf80-2906e5b2ea69")
+		)
+		(instances
+			(project "rb_arm"
+				(path "/a93ecf99-3544-49bb-a14b-d2cd0e95eb0e/b2c99ebf-fdb8-41bc-bd62-91103cbabf62"
+					(reference "#PWR051")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 135.89 109.22 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d384c7ad-eaa9-4d61-89f0-0a1761281d02")
+		(property "Reference" "C14"
+			(at 138.176 107.95 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 133.604 107.442 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 132.08 110.1852 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/609/CL05B104KP5NNNC_Spec.pdf"
+			(at 135.89 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "CAP CER 0.1UF 10V X7R 0402"
+			(at 135.89 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "part" "samsung CL05B104KP5NNNC"
+			(at 135.89 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "929d4d5a-67eb-4ed9-b116-3c7d57af9563")
+		)
+		(pin "2"
+			(uuid "d6d72cbd-1253-471a-b106-dd5ffaca17e7")
+		)
+		(instances
+			(project "rb_arm"
+				(path "/a93ecf99-3544-49bb-a14b-d2cd0e95eb0e/b2c99ebf-fdb8-41bc-bd62-91103cbabf62"
+					(reference "C14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 185.42 194.31 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d71d9c49-8151-4b70-a24b-d5cd1a2807ff")
+		(property "Reference" "C47"
+			(at 183.134 195.834 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22u"
+			(at 187.452 196.088 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 189.23 193.3448 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM158R61A226ME15-01A.pdf"
+			(at 185.42 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "CAP CER 22UF 10V X5R 0402"
+			(at 185.42 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "part" "Murata Electronics GRM158R61A226ME15D"
+			(at 185.42 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "33ce85d6-b069-4b7c-abcd-9238cd738119")
+		)
+		(pin "1"
+			(uuid "78570391-c52e-4e7e-b3a5-56bd547ad4c8")
+		)
+		(instances
+			(project "rb_arm"
+				(path "/a93ecf99-3544-49bb-a14b-d2cd0e95eb0e/b2c99ebf-fdb8-41bc-bd62-91103cbabf62"
+					(reference "C47")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 185.42 146.05 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e57d93c2-8155-496a-b645-d6d2678fc373")
+		(property "Reference" "C38"
+			(at 187.706 144.78 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 183.134 144.272 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 181.61 147.0152 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/609/CL05B104KP5NNNC_Spec.pdf"
+			(at 185.42 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "CAP CER 0.1UF 10V X7R 0402"
+			(at 185.42 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "part" "samsung CL05B104KP5NNNC"
+			(at 185.42 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7f64c669-7566-436f-a257-d0edafb516f3")
+		)
+		(pin "2"
+			(uuid "5ba90058-9cd8-4666-b212-c687f9879b47")
+		)
+		(instances
+			(project "rb_arm"
+				(path "/a93ecf99-3544-49bb-a14b-d2cd0e95eb0e/b2c99ebf-fdb8-41bc-bd62-91103cbabf62"
+					(reference "C38")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 85.09 123.19 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e7545220-6e51-4058-b7da-77f8d37933d7")
+		(property "Reference" "C3"
+			(at 87.376 121.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 82.804 121.412 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 81.28 124.1552 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/609/CL05B104KP5NNNC_Spec.pdf"
+			(at 85.09 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "CAP CER 0.1UF 10V X7R 0402"
+			(at 85.09 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "part" "samsung CL05B104KP5NNNC"
+			(at 85.09 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bf0e4ce6-76fd-4936-9fdb-d4c19b0ac39e")
+		)
+		(pin "2"
+			(uuid "4d2b6bd1-5126-46fb-9362-e47e0cf19950")
+		)
+		(instances
+			(project "rb_arm"
+				(path "/a93ecf99-3544-49bb-a14b-d2cd0e95eb0e/b2c99ebf-fdb8-41bc-bd62-91103cbabf62"
+					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 85.09 168.91 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e90f428f-1e25-4ff5-9c89-143de23116f4")
+		(property "Reference" "C10"
+			(at 82.804 170.434 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22u"
+			(at 87.122 170.688 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 88.9 167.9448 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM158R61A226ME15-01A.pdf"
+			(at 85.09 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "CAP CER 22UF 10V X5R 0402"
+			(at 85.09 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "part" "Murata Electronics GRM158R61A226ME15D"
+			(at 85.09 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "c8e01bc6-87db-4c73-b98b-b95313701e9f")
+		)
+		(pin "1"
+			(uuid "8224a4fb-786c-4cd8-a983-2573cc668603")
+		)
+		(instances
+			(project "rb_arm"
+				(path "/a93ecf99-3544-49bb-a14b-d2cd0e95eb0e/b2c99ebf-fdb8-41bc-bd62-91103cbabf62"
+					(reference "C10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 185.42 171.45 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ebb60f52-944f-4082-a11f-1e2a8f617dc9")
+		(property "Reference" "C43"
+			(at 187.706 170.18 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 183.134 169.672 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 181.61 172.4152 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/609/CL05B104KP5NNNC_Spec.pdf"
+			(at 185.42 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "CAP CER 0.1UF 10V X7R 0402"
+			(at 185.42 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "part" "samsung CL05B104KP5NNNC"
+			(at 185.42 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9b8d36f8-1806-4c55-8739-8dff442f1dae")
+		)
+		(pin "2"
+			(uuid "c803c6ee-ab90-43a0-9a04-204ac485e994")
+		)
+		(instances
+			(project "rb_arm"
+				(path "/a93ecf99-3544-49bb-a14b-d2cd0e95eb0e/b2c99ebf-fdb8-41bc-bd62-91103cbabf62"
+					(reference "C43")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 85.09 162.56 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f31b0f3d-0c4d-4a27-aa80-cc41b44b9fe3")
+		(property "Reference" "C9"
+			(at 82.804 164.084 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22u"
+			(at 87.122 164.338 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 88.9 161.5948 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM158R61A226ME15-01A.pdf"
+			(at 85.09 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "CAP CER 22UF 10V X5R 0402"
+			(at 85.09 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "part" "Murata Electronics GRM158R61A226ME15D"
+			(at 85.09 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "73596e4f-b1ba-4266-a704-e5f7d0f1079c")
+		)
+		(pin "1"
+			(uuid "157d8143-6109-4b1c-8254-f4b09de33599")
+		)
+		(instances
+			(project "rb_arm"
+				(path "/a93ecf99-3544-49bb-a14b-d2cd0e95eb0e/b2c99ebf-fdb8-41bc-bd62-91103cbabf62"
+					(reference "C9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 185.42 81.28 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f42ac154-2463-4116-8863-2b809d2c6a16")
+		(property "Reference" "C26"
+			(at 187.706 80.01 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 183.134 79.502 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 181.61 82.2452 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/609/CL05B104KP5NNNC_Spec.pdf"
+			(at 185.42 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "CAP CER 0.1UF 10V X7R 0402"
+			(at 185.42 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "part" "samsung CL05B104KP5NNNC"
+			(at 185.42 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "882c7ce6-2129-493c-88c5-6506e7ccecca")
+		)
+		(pin "2"
+			(uuid "4c0b839e-f5f7-40b9-8893-f47255e3c6e4")
+		)
+		(instances
+			(project "rb_arm"
+				(path "/a93ecf99-3544-49bb-a14b-d2cd0e95eb0e/b2c99ebf-fdb8-41bc-bd62-91103cbabf62"
+					(reference "C26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 185.42 166.37 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f5952238-bf1f-4683-bf68-c4f934f96220")
+		(property "Reference" "C42"
+			(at 187.706 165.1 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 183.134 164.592 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 181.61 167.3352 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/609/CL05B104KP5NNNC_Spec.pdf"
+			(at 185.42 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "CAP CER 0.1UF 10V X7R 0402"
+			(at 185.42 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "part" "samsung CL05B104KP5NNNC"
+			(at 185.42 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "beb8680c-f468-470b-b229-6989adc27384")
+		)
+		(pin "2"
+			(uuid "eecdb387-07d8-4103-973d-e6275c7b7a63")
+		)
+		(instances
+			(project "rb_arm"
+				(path "/a93ecf99-3544-49bb-a14b-d2cd0e95eb0e/b2c99ebf-fdb8-41bc-bd62-91103cbabf62"
+					(reference "C42")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 137.16 228.6 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f983da47-20e2-4012-bb54-e42e20d50d5a")
+		(property "Reference" "C21"
+			(at 135.636 226.314 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22u"
+			(at 135.382 230.632 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 138.1252 232.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM158R61A226ME15-01A.pdf"
+			(at 137.16 228.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "CAP CER 22UF 10V X5R 0402"
+			(at 137.16 228.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "part" "Murata Electronics GRM158R61A226ME15D"
+			(at 137.16 228.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "67331ab5-f892-4246-808e-74f09fcabd93")
+		)
+		(pin "1"
+			(uuid "544cfb5f-d3e4-4a21-9474-233bd2763168")
+		)
+		(instances
+			(project "rb_arm"
+				(path "/a93ecf99-3544-49bb-a14b-d2cd0e95eb0e/b2c99ebf-fdb8-41bc-bd62-91103cbabf62"
+					(reference "C21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 135.89 102.87 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "faee12a0-8b8a-40da-9e5e-854a49300ec4")
+		(property "Reference" "C13"
+			(at 138.176 101.6 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 133.604 101.092 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 132.08 103.8352 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/609/CL05B104KP5NNNC_Spec.pdf"
+			(at 135.89 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "CAP CER 0.1UF 10V X7R 0402"
+			(at 135.89 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "part" "samsung CL05B104KP5NNNC"
+			(at 135.89 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "dbde5a1e-6242-450a-8a92-73adab6a3933")
+		)
+		(pin "2"
+			(uuid "ae586611-6796-49bf-b1e6-6000cf11de86")
+		)
+		(instances
+			(project "rb_arm"
+				(path "/a93ecf99-3544-49bb-a14b-d2cd0e95eb0e/b2c99ebf-fdb8-41bc-bd62-91103cbabf62"
+					(reference "C13")
+					(unit 1)
+				)
+			)
+		)
+	)
+)

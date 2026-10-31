@@ -1,0 +1,70 @@
+part,manufacturer,price,quantity,availability,total price
+L+AF8-Ferrite,Unknown,0.1,1,In Stock,0.1
+4.7n,Unknown,0.1,1,In Stock,0.1
+22u,Murata,0.1,23,In Stock,2.3
+22n,Murata,0.1,1,In Stock,0.1
+4.7u,Unknown,0.1,9,In Stock,0.9
+100n,Unknown,0.1,61,In Stock,6.1
+10u,Unknown,0.1,2,In Stock,0.2
+USBLC6+AC0-2SC6,STMicroelectronics,0.25,1,In Stock,0.25
+D+AF8-Schottky,MDD,0.2,1,In Stock,0.2
+ESDA5V3L,STMicroelectronics,0.3,1,In Stock,0.3
+Polyfuse,Bourns,0.35,1,In Stock,0.35
+120ohm,Murata,0.05,2,In Stock,0.1
+LED2,Kingbright,0.1,1,In Stock,0.1
+MX25UM51245GMI00,Macronix,2.5,1,In Stock,2.5
+ESP32+AC0-S3+AC0-WROOM+AC0-1U+AC0-N8,Espressif Systems,3.2,1,In Stock,3.2
+T4141012051+AC0-000,TE Connectivity,4.5,1,In Stock,4.5
+Conn+AF8-01x05+AF8-Pin,Generic,0.15,2,In Stock,0.3
+USB+AF8-C+AF8-Receptacle+AF8-USB2.0+AF8-16P,GCT,0.4,1,In Stock,0.4
+Boot+AF8-Option,Generic,0.1,1,In Stock,0.1
+Conn+AF8-01x05+AF8-Pin,Generic,0.15,1,In Stock,0.15
+UART,Generic,0.15,1,In Stock,0.15
+Genral+AF8-purpose,Generic,0.15,1,In Stock,0.15
+FH12+AC0-24S+AC0-0.5SH+AF8-55+AF8-,Hirose,0.6,1,In Stock,0.6
+Micro+AF8-SD+AF8-Card+AF8-Det1,XKB Connectivity,0.5,1,In Stock,0.5
+10u,TDK,0.15,1,In Stock,0.15
+2.2u,Monolithic Power Systems,0.2,2,In Stock,0.4
+200,Unknown,0.05,1,In Stock,0.05
+SMS+AC0-2504MS+AC0-WP+AC0-HT,PUI Audio,1.8,1,In Stock,1.8
+ICS+AC0-43434,TDK InvenSense,1.9,1,In Stock,1.9
+30k,Yageo,0.02,1,In Stock,0.02
+50k,Yageo,0.03,1,In Stock,0.03
+120,Panasonic Industry,0.02,1,In Stock,0.02
+17.6k,KOA Speer,0.03,1,In Stock,0.03
+100,Yageo,0.02,1,In Stock,0.02
+100,Yageo,0.02,1,In Stock,0.02
+200,Yageo,0.02,2,In Stock,0.04
+51k,Yageo,0.02,1,In Stock,0.02
+100k,Yageo,0.02,5,In Stock,0.1
+1M,Yageo,0.02,2,In Stock,0.04
+22,Yageo,0.02,3,In Stock,0.06
+2.2k,Yageo,0.02,3,In Stock,0.06
+10k,Yageo,0.02,11,In Stock,0.22
+SW+AF8-SPDT+AF8-321,C+ACY-K / Littelfuse,0.45,2,In Stock,0.9
+SW+AF8-Push,C+ACY-K / Littelfuse,0.3,1,In Stock,0.3
+3V3+AF8-TP,Generic,0.01,1,In Stock,0.01
+1V8A+AF8-TP,Generic,0.01,1,In Stock,0.01
+3V3A+AF8-TP,Generic,0.01,1,In Stock,0.01
+1V8+AF8-TP,Generic,0.01,1,In Stock,0.01
+NRST+AF8-TP,Generic,0.01,1,In Stock,0.01
+TestPoint,Generic,0.01,1,In Stock,0.01
+boot,Generic,0.01,1,In Stock,0.01
+flash+AF8-gnd,Generic,0.01,1,In Stock,0.01
+ESP+AF8-GND,Generic,0.01,1,In Stock,0.01
+VCAP,Generic,0.01,1,In Stock,0.01
+TPS2116DRL,Texas Instruments,0.85,1,In Stock,0.85
+MAX98357A,Analog Devices / Maxim,1.45,1,In Stock,1.45
+LMR16030SDDA,Texas Instruments,1.75,1,In Stock,1.75
+STM32N657B0H3Q,STMicroelectronics,12.5,1,In Stock,12.5
+TCAN332D,Texas Instruments,0.95,1,In Stock,0.95
+AP62150Z6,Diodes Incorporated,0.45,1,In Stock,0.45
+LP5907MFX+AC0-3.3,Texas Instruments,0.4,1,In Stock,0.4
+TPS63001,Texas Instruments,1.65,1,In Stock,1.65
+MCP1700T+AC0-1802E/MB,Microchip Technology,0.35,1,In Stock,0.35
+MIC5317+AC0-1.5xM5,Microchip Technology,0.3,1,In Stock,0.3
+MIC5317+AC0-2.8xM5,Microchip Technology,0.3,1,In Stock,0.3
+ECS+AC0-3963+AC0-160+AC0-AU+AC0-TR,ECS Inc.,1.2,1,In Stock,1.2
+LSM6DSRXTR,STMicroelectronics,5.4,1,In Stock,5.4
+,,,,,
+total,,47.13,,,57.48
