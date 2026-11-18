@@ -2529,6 +2529,18 @@
 		(uuid "347fd4b5-3e32-4ebe-8619-e92f63f163c3")
 	)
 	(rectangle
+		(start 19.685 91.44)
+		(end 67.31 118.745)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "6e6958fa-d078-4008-a6e9-2dd3c4ec6b51")
+	)
+	(rectangle
 		(start 190.5 86.36)
 		(end 281.94 134.62)
 		(stroke
@@ -2559,6 +2571,16 @@
 			)
 		)
 		(uuid "59a45a7a-849c-426b-a7b7-d1161a981d4f")
+	)
+	(text "port\n"
+		(exclude_from_sim no)
+		(at 22.606 116.84 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "83bbcb8f-445a-4993-90b7-740054dc7532")
 	)
 	(text "Converter from 24V to 5V from pwr supply to board supply"
 		(exclude_from_sim no)
