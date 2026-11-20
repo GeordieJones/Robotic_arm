@@ -1469,6 +1469,12 @@
 		(uuid "68464dc3-685e-481f-a4d7-540530e3af58")
 	)
 	(junction
+		(at 85.09 64.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8b678f2d-56d7-4c3a-b9fb-e6379466a331")
+	)
+	(junction
 		(at 73.66 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1485,12 +1491,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d7d17621-8e5d-4af0-8970-dc1f2e441e92")
-	)
-	(junction
-		(at 85.09 64.77)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e18e3cff-0568-42f9-9f9e-f0e2196ca4dd")
 	)
 	(junction
 		(at 156.21 111.76)
@@ -1543,6 +1543,16 @@
 			(type default)
 		)
 		(uuid "0c1ba757-476f-471f-b6d5-151846dfeb68")
+	)
+	(wire
+		(pts
+			(xy 85.09 64.77) (xy 85.09 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12624b1a-3c0f-4132-b64c-52f2dcf3129a")
 	)
 	(wire
 		(pts
@@ -1796,16 +1806,6 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 60.96) (xy 85.09 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9cd71a9d-c393-446e-a00c-cd4a4de1fc74")
-	)
-	(wire
-		(pts
 			(xy 86.36 110.49) (xy 86.36 116.84)
 		)
 		(stroke
@@ -1866,7 +1866,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 64.77) (xy 85.09 71.12)
+			(xy 85.09 60.96) (xy 85.09 64.77)
 		)
 		(stroke
 			(width 0)
@@ -3514,7 +3514,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 81.28 64.77 90)
+		(at 81.28 64.77 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3524,7 +3524,7 @@
 		(dnp no)
 		(uuid "6ecb575a-889d-4c90-97c3-8d304a264289")
 		(property "Reference" "C8"
-			(at 81.026 59.182 90)
+			(at 78.74 63.246 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3534,7 +3534,7 @@
 			)
 		)
 		(property "Value" "100u"
-			(at 80.772 61.214 90)
+			(at 81.28 61.214 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3544,7 +3544,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm"
-			(at 85.09 63.8048 0)
+			(at 77.47 65.7352 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
