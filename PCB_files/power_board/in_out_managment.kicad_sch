@@ -8979,6 +8979,7 @@
 	(symbol
 		(lib_id "Regulator_Switching:TPS63001")
 		(at 92.71 157.48 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8986,7 +8987,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "7e9473c3-027a-4fe0-adfb-1d40db1fdca6")
 		(property "Reference" "U12"
 			(at 92.71 139.7 0)
@@ -9009,7 +9009,7 @@
 			)
 		)
 		(property "Footprint" "Package_SON:Texas_DRC0010J_ThermalVias"
-			(at 114.3 171.45 0)
+			(at 71.12 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9020,7 +9020,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tps63000.pdf"
-			(at 85.09 143.51 0)
+			(at 100.33 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

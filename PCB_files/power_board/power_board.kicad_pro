@@ -69,7 +69,13 @@
           "thermal_relief_spoke_width": 0.5
         }
       },
-      "diff_pair_dimensions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
       "drc_exclusions": [],
       "meta": {
         "version": 2
@@ -206,7 +212,15 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [],
+      "track_widths": [
+        0.0,
+        0.2,
+        0.3,
+        0.4,
+        0.5,
+        0.7,
+        1.0
+      ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -233,7 +247,12 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        }
+      ],
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
@@ -665,7 +684,7 @@
         "uuid": "951fe443-22d2-4d51-b468-1cefe457e963"
       }
     ],
-    "used_designators": "#FLG1,#FLG9,#FLG11-12,#PWR1-131,2.2uH1-2,C1-28,C64-111,CR1,D1-5,F1,IC1,J1-30,L1-3,Q1-2,R1-42,RV1-5,SW1-2,TP3,TP10-14,U1-12",
+    "used_designators": "#FLG1,#FLG9,#FLG11-12,#PWR1-134,2.2uH1-2,C1-28,C64-111,CR1,D1-5,F1,IC1,J1-30,L1-3,Q1-2,R1-42,RV1-5,SW1-2,TP3,TP10-14,U1-12",
     "variants": []
   },
   "sheets": [

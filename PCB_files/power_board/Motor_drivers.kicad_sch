@@ -2150,12 +2150,12 @@
 	)
 	(hierarchical_label "VREF_in"
 		(shape input)
-		(at 86.36 110.49 180)
+		(at 86.36 110.49 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "d73ebdcb-8a2a-4d0a-8651-fd39996856f9")
 	)
