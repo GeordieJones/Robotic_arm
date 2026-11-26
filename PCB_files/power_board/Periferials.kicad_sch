@@ -2930,7 +2930,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "4bd27dbb-8dd9-452d-8636-207bcc376ec1")
+		(uuid "a8da6718-8115-46f8-bbfe-8364c520364e")
 	)
 	(hierarchical_label "SERVO_PWM"
 		(shape input)
@@ -3746,7 +3746,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "30e3adb2-2497-41ec-866d-da49109ba0cd")
 		(property "Reference" "J27"
 			(at 99.695 39.37 0)
@@ -3759,7 +3758,7 @@
 			)
 		)
 		(property "Value" "Conn_01x03_Pin"
-			(at 99.695 41.91 0)
+			(at 99.314 41.402 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5743,7 +5742,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "b2240d24-54e8-49dc-ad62-4f1b030f6024")
 		(property "Reference" "#PWR0112"
 			(at 59.69 130.81 0)
@@ -5756,14 +5754,15 @@
 				)
 			)
 		)
-		(property "Value" "+12V"
-			(at 59.69 121.92 0)
+		(property "Value" "12V"
+			(at 57.912 123.19 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
