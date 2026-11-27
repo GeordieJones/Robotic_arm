@@ -690,16 +690,6 @@
 	)
 	(wire
 		(pts
-			(xy 16.51 142.24) (xy 19.05 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "525d5ec9-d76a-46d0-b8f7-817679e14b0d")
-	)
-	(wire
-		(pts
 			(xy 82.55 48.26) (xy 80.01 48.26)
 		)
 		(stroke
@@ -1681,84 +1671,6 @@
 			(project "power_board"
 				(path "/951fe443-22d2-4d51-b468-1cefe457e963"
 					(reference "#PWR010")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 16.51 142.24 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0b2bd4de-0ae6-4cc9-be50-662dd7b07f5b")
-		(property "Reference" "#PWR0128"
-			(at 16.51 146.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "3V3"
-			(at 16.51 137.16 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 16.51 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 16.51 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 16.51 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "63af37ab-ff2f-4dac-bd45-8210d1f5b84a")
-		)
-		(instances
-			(project "power_board"
-				(path "/951fe443-22d2-4d51-b468-1cefe457e963"
-					(reference "#PWR0128")
 					(unit 1)
 				)
 			)
@@ -4676,16 +4588,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-			)
-		)
-		(pin "3V3_in" input
-			(at 19.05 142.24 180)
-			(uuid "13468c5e-6f2c-4bf4-a829-dcc9b34a403e")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 			)
 		)
 		(pin "VREF_ART3" output
